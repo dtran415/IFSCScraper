@@ -1,0 +1,3953 @@
+https://components.ifsc-climbing.org/results-api.php?api=index
+{
+    "current": {
+        "id": 35,
+        "season": "2023",
+        "url": "/api/v1/seasons/35",
+        "discipline_kinds": [
+            [
+                0,
+                "lead"
+            ],
+            [
+                1,
+                "speed"
+            ],
+            [
+                2,
+                "boulder"
+            ],
+            [
+                3,
+                "combined"
+            ],
+            [
+                4,
+                "boulder\u0026lead"
+            ]
+        ],
+        "leagues": [
+            {
+                "id": 418,
+                "name": "World Cups and World Championships",
+                "cups": [
+                    {
+                        "id": 90,
+                        "name": "IFSC Climbing World Cup 2023"
+                    }
+                ],
+                "url": "/api/v1/season_leagues/418"
+            },
+            {
+                "id": 419,
+                "name": "IFSC Youth",
+                "cups": [],
+                "url": "/api/v1/season_leagues/419"
+            },
+            {
+                "id": 420,
+                "name": "IFSC Paraclimbing",
+                "cups": [],
+                "url": "/api/v1/season_leagues/420"
+            },
+            {
+                "id": 421,
+                "name": "IFSC Asia Adults",
+                "cups": [],
+                "url": "/api/v1/season_leagues/421"
+            },
+            {
+                "id": 422,
+                "name": "IFSC Asia Youth",
+                "cups": [],
+                "url": "/api/v1/season_leagues/422"
+            },
+            {
+                "id": 423,
+                "name": "IFSC Europe Adults",
+                "cups": [
+                    {
+                        "id": 92,
+                        "name": "IFSC-Europe Climbing European Cup 2023"
+                    }
+                ],
+                "url": "/api/v1/season_leagues/423"
+            },
+            {
+                "id": 424,
+                "name": "IFSC Europe Youth",
+                "cups": [
+                    {
+                        "id": 91,
+                        "name": "IFSC-Europe Climbing European Youth Cup 2023"
+                    }
+                ],
+                "url": "/api/v1/season_leagues/424"
+            },
+            {
+                "id": 425,
+                "name": "Games",
+                "cups": [],
+                "url": "/api/v1/season_leagues/425"
+            },
+            {
+                "id": 426,
+                "name": "Other events",
+                "cups": [],
+                "url": "/api/v1/season_leagues/426"
+            },
+            {
+                "id": 427,
+                "name": "Masters and Promotional Events",
+                "cups": [],
+                "url": "/api/v1/season_leagues/427"
+            },
+            {
+                "id": 428,
+                "name": "IFSC Pan America Adults",
+                "cups": [],
+                "url": "/api/v1/season_leagues/428"
+            },
+            {
+                "id": 429,
+                "name": "IFSC Oceania",
+                "cups": [],
+                "url": "/api/v1/season_leagues/429"
+            },
+            {
+                "id": 430,
+                "name": "IFSC Africa",
+                "cups": [],
+                "url": "/api/v1/season_leagues/430"
+            }
+        ]
+    },
+    "seasons": [
+        {
+            "id": 35,
+            "name": "2023",
+            "url": "/api/v1/seasons/35",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 418,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 90,
+                            "name": "IFSC Climbing World Cup 2023"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/418"
+                },
+                {
+                    "id": 419,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/419"
+                },
+                {
+                    "id": 420,
+                    "name": "IFSC Paraclimbing",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/420"
+                },
+                {
+                    "id": 421,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/421"
+                },
+                {
+                    "id": 422,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/422"
+                },
+                {
+                    "id": 423,
+                    "name": "IFSC Europe Adults",
+                    "cups": [
+                        {
+                            "id": 92,
+                            "name": "IFSC-Europe Climbing European Cup 2023"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/423"
+                },
+                {
+                    "id": 424,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 91,
+                            "name": "IFSC-Europe Climbing European Youth Cup 2023"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/424"
+                },
+                {
+                    "id": 425,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/425"
+                },
+                {
+                    "id": 426,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/426"
+                },
+                {
+                    "id": 427,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/427"
+                },
+                {
+                    "id": 428,
+                    "name": "IFSC Pan America Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/428"
+                },
+                {
+                    "id": 429,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/429"
+                },
+                {
+                    "id": 430,
+                    "name": "IFSC Africa",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/430"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "2022",
+            "url": "/api/v1/seasons/34",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 404,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 72,
+                            "name": "IFSC Climbing World Cup 2022"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/404"
+                },
+                {
+                    "id": 405,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/405"
+                },
+                {
+                    "id": 407,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/407"
+                },
+                {
+                    "id": 408,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/408"
+                },
+                {
+                    "id": 409,
+                    "name": "IFSC Europe Adults",
+                    "cups": [
+                        {
+                            "id": 78,
+                            "name": "IFSC-Europe Climbing European Cup 2022 - Lead"
+                        },
+                        {
+                            "id": 88,
+                            "name": "IFSC-Europe Climbing European Cup 2022 - Boulder"
+                        },
+                        {
+                            "id": 89,
+                            "name": "IFSC-Europe Climbing European Cup 2022 - Speed"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/409"
+                },
+                {
+                    "id": 410,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 85,
+                            "name": "IFSC-Europe Climbing European Youth Cup 2022 - Lead"
+                        },
+                        {
+                            "id": 86,
+                            "name": "IFSC-Europe Climbing European Youth Cup 2022 - Boulder"
+                        },
+                        {
+                            "id": 87,
+                            "name": "IFSC-Europe Climbing European Youth Cup 2022 - Speed"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/410"
+                },
+                {
+                    "id": 411,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/411"
+                },
+                {
+                    "id": 412,
+                    "name": "IFSC Pan America Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/412"
+                },
+                {
+                    "id": 413,
+                    "name": "IFSC Africa",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/413"
+                },
+                {
+                    "id": 414,
+                    "name": "IFSC Paraclimbing",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/414"
+                },
+                {
+                    "id": 415,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/415"
+                },
+                {
+                    "id": 416,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/416"
+                },
+                {
+                    "id": 417,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/417"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "2021",
+            "url": "/api/v1/seasons/33",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 388,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 66,
+                            "name": "IFSC Climbing World Cup 2021"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/388"
+                },
+                {
+                    "id": 389,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/389"
+                },
+                {
+                    "id": 391,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/391"
+                },
+                {
+                    "id": 392,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/392"
+                },
+                {
+                    "id": 393,
+                    "name": "IFSC Europe Adults",
+                    "cups": [
+                        {
+                            "id": 68,
+                            "name": "IFSC Climbing European Cup 2021"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/393"
+                },
+                {
+                    "id": 395,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/395"
+                },
+                {
+                    "id": 396,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/396"
+                },
+                {
+                    "id": 397,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/397"
+                },
+                {
+                    "id": 398,
+                    "name": "IFSC Pan America Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/398"
+                },
+                {
+                    "id": 399,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/399"
+                },
+                {
+                    "id": 400,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/400"
+                },
+                {
+                    "id": 401,
+                    "name": "IFSC Africa",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/401"
+                },
+                {
+                    "id": 402,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 73,
+                            "name": "IFSC Climbing European Youth Cup 2021 - Lead"
+                        },
+                        {
+                            "id": 74,
+                            "name": "IFSC Climbing European Youth Cup 2021 - Boulder"
+                        },
+                        {
+                            "id": 75,
+                            "name": "IFSC Climbing European Youth Cup 2021 - Speed"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/402"
+                },
+                {
+                    "id": 403,
+                    "name": "IFSC Paraclimbing",
+                    "cups": [
+                        {
+                            "id": 71,
+                            "name": "IFSC Paraclimbing Cup"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/403"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "2020",
+            "url": "/api/v1/seasons/2",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 14,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 3,
+                            "name": "IFSC Climbing World Cup 2020"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/14"
+                },
+                {
+                    "id": 15,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/15"
+                },
+                {
+                    "id": 16,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [
+                        {
+                            "id": 7,
+                            "name": "IFSC Paraclimbing World Cup 2020"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/16"
+                },
+                {
+                    "id": 17,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/17"
+                },
+                {
+                    "id": 18,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/18"
+                },
+                {
+                    "id": 19,
+                    "name": "IFSC Europe Adults",
+                    "cups": [
+                        {
+                            "id": 5,
+                            "name": "IFSC Climbing European Cup 2020"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/19"
+                },
+                {
+                    "id": 20,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 8,
+                            "name": "IFSC Climbing European Youth Cup 2020"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/20"
+                },
+                {
+                    "id": 24,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/24"
+                },
+                {
+                    "id": 25,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/25"
+                },
+                {
+                    "id": 26,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/26"
+                },
+                {
+                    "id": 27,
+                    "name": "IFSC Pan America Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/27"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "2019",
+            "url": "/api/v1/seasons/32",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 376,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 63,
+                            "name": "IFSC Climbing World Cup 2019"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/376"
+                },
+                {
+                    "id": 377,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/377"
+                },
+                {
+                    "id": 378,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/378"
+                },
+                {
+                    "id": 379,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/379"
+                },
+                {
+                    "id": 380,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/380"
+                },
+                {
+                    "id": 381,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/381"
+                },
+                {
+                    "id": 382,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 64,
+                            "name": "European Youth Cup 2019"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/382"
+                },
+                {
+                    "id": 383,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/383"
+                },
+                {
+                    "id": 384,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/384"
+                },
+                {
+                    "id": 385,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/385"
+                },
+                {
+                    "id": 386,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/386"
+                },
+                {
+                    "id": 387,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/387"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "2018",
+            "url": "/api/v1/seasons/31",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 364,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 61,
+                            "name": "IFSC Climbing Worldcup 2018"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/364"
+                },
+                {
+                    "id": 365,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/365"
+                },
+                {
+                    "id": 366,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/366"
+                },
+                {
+                    "id": 367,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/367"
+                },
+                {
+                    "id": 368,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/368"
+                },
+                {
+                    "id": 369,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/369"
+                },
+                {
+                    "id": 370,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 62,
+                            "name": "European Youth Cup 2018"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/370"
+                },
+                {
+                    "id": 371,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/371"
+                },
+                {
+                    "id": 372,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/372"
+                },
+                {
+                    "id": 373,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/373"
+                },
+                {
+                    "id": 374,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/374"
+                },
+                {
+                    "id": 375,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/375"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "2017",
+            "url": "/api/v1/seasons/30",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 352,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 59,
+                            "name": "IFSC Climbing Worldcup 2017"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/352"
+                },
+                {
+                    "id": 353,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/353"
+                },
+                {
+                    "id": 354,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/354"
+                },
+                {
+                    "id": 355,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/355"
+                },
+                {
+                    "id": 356,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/356"
+                },
+                {
+                    "id": 357,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/357"
+                },
+                {
+                    "id": 358,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 60,
+                            "name": "European Youth Cup 2017"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/358"
+                },
+                {
+                    "id": 359,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/359"
+                },
+                {
+                    "id": 360,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/360"
+                },
+                {
+                    "id": 361,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/361"
+                },
+                {
+                    "id": 362,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/362"
+                },
+                {
+                    "id": 363,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/363"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "2016",
+            "url": "/api/v1/seasons/29",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 340,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 57,
+                            "name": "IFSC Climbing Worldcup 2016"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/340"
+                },
+                {
+                    "id": 341,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/341"
+                },
+                {
+                    "id": 342,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/342"
+                },
+                {
+                    "id": 343,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/343"
+                },
+                {
+                    "id": 344,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/344"
+                },
+                {
+                    "id": 345,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/345"
+                },
+                {
+                    "id": 346,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 58,
+                            "name": "European Youth Cup 2016"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/346"
+                },
+                {
+                    "id": 347,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/347"
+                },
+                {
+                    "id": 348,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/348"
+                },
+                {
+                    "id": 349,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/349"
+                },
+                {
+                    "id": 350,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/350"
+                },
+                {
+                    "id": 351,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/351"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "2015",
+            "url": "/api/v1/seasons/28",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 328,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 55,
+                            "name": "IFSC Climbing Worldcup 2015"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/328"
+                },
+                {
+                    "id": 329,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/329"
+                },
+                {
+                    "id": 330,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/330"
+                },
+                {
+                    "id": 331,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/331"
+                },
+                {
+                    "id": 332,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/332"
+                },
+                {
+                    "id": 333,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/333"
+                },
+                {
+                    "id": 334,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 56,
+                            "name": "European Youth Cup 2015"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/334"
+                },
+                {
+                    "id": 335,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/335"
+                },
+                {
+                    "id": 336,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/336"
+                },
+                {
+                    "id": 337,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/337"
+                },
+                {
+                    "id": 338,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/338"
+                },
+                {
+                    "id": 339,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/339"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "2014",
+            "url": "/api/v1/seasons/27",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 316,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 53,
+                            "name": "IFSC Climbing Worldcup 2014"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/316"
+                },
+                {
+                    "id": 317,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/317"
+                },
+                {
+                    "id": 318,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/318"
+                },
+                {
+                    "id": 319,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/319"
+                },
+                {
+                    "id": 320,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/320"
+                },
+                {
+                    "id": 321,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/321"
+                },
+                {
+                    "id": 322,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 54,
+                            "name": "European Youth Cup 2014"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/322"
+                },
+                {
+                    "id": 323,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/323"
+                },
+                {
+                    "id": 324,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/324"
+                },
+                {
+                    "id": 325,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/325"
+                },
+                {
+                    "id": 326,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/326"
+                },
+                {
+                    "id": 327,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/327"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "2013",
+            "url": "/api/v1/seasons/26",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 304,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 51,
+                            "name": "IFSC Climbing Worldcup 2013"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/304"
+                },
+                {
+                    "id": 305,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/305"
+                },
+                {
+                    "id": 306,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/306"
+                },
+                {
+                    "id": 307,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/307"
+                },
+                {
+                    "id": 308,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/308"
+                },
+                {
+                    "id": 309,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/309"
+                },
+                {
+                    "id": 310,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 52,
+                            "name": "European Youth Cup 2013"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/310"
+                },
+                {
+                    "id": 311,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/311"
+                },
+                {
+                    "id": 312,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/312"
+                },
+                {
+                    "id": 313,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/313"
+                },
+                {
+                    "id": 314,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/314"
+                },
+                {
+                    "id": 315,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/315"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "2012",
+            "url": "/api/v1/seasons/25",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 292,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 48,
+                            "name": "IFSC Climbing Worldcup 2012"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/292"
+                },
+                {
+                    "id": 293,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/293"
+                },
+                {
+                    "id": 294,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/294"
+                },
+                {
+                    "id": 295,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/295"
+                },
+                {
+                    "id": 296,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/296"
+                },
+                {
+                    "id": 297,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/297"
+                },
+                {
+                    "id": 298,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 49,
+                            "name": "European Youth Cup 2012"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/298"
+                },
+                {
+                    "id": 299,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/299"
+                },
+                {
+                    "id": 300,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/300"
+                },
+                {
+                    "id": 301,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/301"
+                },
+                {
+                    "id": 302,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/302"
+                },
+                {
+                    "id": 303,
+                    "name": "Masters and Promotional Events",
+                    "cups": [
+                        {
+                            "id": 50,
+                            "name": "Rheintal Cup 2012"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/303"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "2011",
+            "url": "/api/v1/seasons/24",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 280,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 45,
+                            "name": "IFSC Climbing Worldcup 2011"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/280"
+                },
+                {
+                    "id": 281,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/281"
+                },
+                {
+                    "id": 282,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/282"
+                },
+                {
+                    "id": 283,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/283"
+                },
+                {
+                    "id": 284,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/284"
+                },
+                {
+                    "id": 285,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/285"
+                },
+                {
+                    "id": 286,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 46,
+                            "name": "European Youth Cup 2011"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/286"
+                },
+                {
+                    "id": 287,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/287"
+                },
+                {
+                    "id": 288,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/288"
+                },
+                {
+                    "id": 289,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/289"
+                },
+                {
+                    "id": 290,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/290"
+                },
+                {
+                    "id": 291,
+                    "name": "Masters and Promotional Events",
+                    "cups": [
+                        {
+                            "id": 47,
+                            "name": "Rheintal Cup 2011"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/291"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "2010",
+            "url": "/api/v1/seasons/23",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 268,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 43,
+                            "name": "IFSC Climbing Worldcup 2010"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/268"
+                },
+                {
+                    "id": 269,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/269"
+                },
+                {
+                    "id": 270,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/270"
+                },
+                {
+                    "id": 271,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/271"
+                },
+                {
+                    "id": 272,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/272"
+                },
+                {
+                    "id": 273,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/273"
+                },
+                {
+                    "id": 274,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 44,
+                            "name": "10_EYC: European Youth Series 2010"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/274"
+                },
+                {
+                    "id": 275,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/275"
+                },
+                {
+                    "id": 276,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/276"
+                },
+                {
+                    "id": 277,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/277"
+                },
+                {
+                    "id": 278,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/278"
+                },
+                {
+                    "id": 279,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/279"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "2009",
+            "url": "/api/v1/seasons/22",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 256,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 41,
+                            "name": "IFSC Climbing Worldcup 2009"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/256"
+                },
+                {
+                    "id": 257,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/257"
+                },
+                {
+                    "id": 258,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/258"
+                },
+                {
+                    "id": 259,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/259"
+                },
+                {
+                    "id": 260,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/260"
+                },
+                {
+                    "id": 261,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/261"
+                },
+                {
+                    "id": 262,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 42,
+                            "name": "European Youth Series 2009"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/262"
+                },
+                {
+                    "id": 263,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/263"
+                },
+                {
+                    "id": 264,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/264"
+                },
+                {
+                    "id": 265,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/265"
+                },
+                {
+                    "id": 266,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/266"
+                },
+                {
+                    "id": 267,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/267"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "2008",
+            "url": "/api/v1/seasons/21",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 244,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 39,
+                            "name": "IFSC Climbing Worldcup 2008"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/244"
+                },
+                {
+                    "id": 245,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/245"
+                },
+                {
+                    "id": 246,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/246"
+                },
+                {
+                    "id": 247,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/247"
+                },
+                {
+                    "id": 248,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/248"
+                },
+                {
+                    "id": 249,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/249"
+                },
+                {
+                    "id": 250,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 40,
+                            "name": "European Youth Series 2008"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/250"
+                },
+                {
+                    "id": 251,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/251"
+                },
+                {
+                    "id": 252,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/252"
+                },
+                {
+                    "id": 253,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/253"
+                },
+                {
+                    "id": 254,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/254"
+                },
+                {
+                    "id": 255,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/255"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "2007",
+            "url": "/api/v1/seasons/20",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 232,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 37,
+                            "name": "IFSC Climbing Worldcup 2007"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/232"
+                },
+                {
+                    "id": 233,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/233"
+                },
+                {
+                    "id": 234,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/234"
+                },
+                {
+                    "id": 235,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/235"
+                },
+                {
+                    "id": 236,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/236"
+                },
+                {
+                    "id": 237,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/237"
+                },
+                {
+                    "id": 238,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 38,
+                            "name": "European Youth Series 2007"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/238"
+                },
+                {
+                    "id": 239,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/239"
+                },
+                {
+                    "id": 240,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/240"
+                },
+                {
+                    "id": 241,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/241"
+                },
+                {
+                    "id": 242,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/242"
+                },
+                {
+                    "id": 243,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/243"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "2006",
+            "url": "/api/v1/seasons/19",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 220,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 35,
+                            "name": "UIAA Climbing Worldcup 2006"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/220"
+                },
+                {
+                    "id": 221,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/221"
+                },
+                {
+                    "id": 222,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/222"
+                },
+                {
+                    "id": 223,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/223"
+                },
+                {
+                    "id": 224,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/224"
+                },
+                {
+                    "id": 225,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/225"
+                },
+                {
+                    "id": 226,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 36,
+                            "name": "European Youth Cup 2006"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/226"
+                },
+                {
+                    "id": 227,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/227"
+                },
+                {
+                    "id": 228,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/228"
+                },
+                {
+                    "id": 229,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/229"
+                },
+                {
+                    "id": 230,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/230"
+                },
+                {
+                    "id": 231,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/231"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "2005",
+            "url": "/api/v1/seasons/18",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 208,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 33,
+                            "name": "UIAA Climbing Worldcup 2005"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/208"
+                },
+                {
+                    "id": 209,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/209"
+                },
+                {
+                    "id": 210,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/210"
+                },
+                {
+                    "id": 211,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/211"
+                },
+                {
+                    "id": 212,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/212"
+                },
+                {
+                    "id": 213,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/213"
+                },
+                {
+                    "id": 214,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 34,
+                            "name": "European Youth Cup 2005"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/214"
+                },
+                {
+                    "id": 215,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/215"
+                },
+                {
+                    "id": 216,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/216"
+                },
+                {
+                    "id": 217,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/217"
+                },
+                {
+                    "id": 218,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/218"
+                },
+                {
+                    "id": 219,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/219"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "2004",
+            "url": "/api/v1/seasons/17",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 196,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 31,
+                            "name": "UIAA Climbing-Worldcup 2004"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/196"
+                },
+                {
+                    "id": 197,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/197"
+                },
+                {
+                    "id": 198,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/198"
+                },
+                {
+                    "id": 199,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/199"
+                },
+                {
+                    "id": 200,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/200"
+                },
+                {
+                    "id": 201,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/201"
+                },
+                {
+                    "id": 202,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 32,
+                            "name": "European Youth Cup 2004"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/202"
+                },
+                {
+                    "id": 203,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/203"
+                },
+                {
+                    "id": 204,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/204"
+                },
+                {
+                    "id": 205,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/205"
+                },
+                {
+                    "id": 206,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/206"
+                },
+                {
+                    "id": 207,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/207"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "2003",
+            "url": "/api/v1/seasons/16",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 184,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 29,
+                            "name": "UIAA Climbing-Worldcup 2003"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/184"
+                },
+                {
+                    "id": 185,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/185"
+                },
+                {
+                    "id": 186,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/186"
+                },
+                {
+                    "id": 187,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/187"
+                },
+                {
+                    "id": 188,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/188"
+                },
+                {
+                    "id": 189,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/189"
+                },
+                {
+                    "id": 190,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 30,
+                            "name": "European Youth Cup 2003"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/190"
+                },
+                {
+                    "id": 191,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/191"
+                },
+                {
+                    "id": 192,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/192"
+                },
+                {
+                    "id": 193,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/193"
+                },
+                {
+                    "id": 194,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/194"
+                },
+                {
+                    "id": 195,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/195"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "2002",
+            "url": "/api/v1/seasons/15",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 172,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 27,
+                            "name": "UIAA Climbing-Worldcup 2002"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/172"
+                },
+                {
+                    "id": 173,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/173"
+                },
+                {
+                    "id": 174,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/174"
+                },
+                {
+                    "id": 175,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/175"
+                },
+                {
+                    "id": 176,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/176"
+                },
+                {
+                    "id": 177,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/177"
+                },
+                {
+                    "id": 178,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 28,
+                            "name": "European Youth Cup 2002"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/178"
+                },
+                {
+                    "id": 179,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/179"
+                },
+                {
+                    "id": 180,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/180"
+                },
+                {
+                    "id": 181,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/181"
+                },
+                {
+                    "id": 182,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/182"
+                },
+                {
+                    "id": 183,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/183"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "2001",
+            "url": "/api/v1/seasons/14",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 160,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 25,
+                            "name": "UIAA Climbing-Worldcup 2001"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/160"
+                },
+                {
+                    "id": 161,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/161"
+                },
+                {
+                    "id": 162,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/162"
+                },
+                {
+                    "id": 163,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/163"
+                },
+                {
+                    "id": 164,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/164"
+                },
+                {
+                    "id": 165,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/165"
+                },
+                {
+                    "id": 166,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 26,
+                            "name": "European Youth Cup 2001"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/166"
+                },
+                {
+                    "id": 167,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/167"
+                },
+                {
+                    "id": 168,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/168"
+                },
+                {
+                    "id": 169,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/169"
+                },
+                {
+                    "id": 170,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/170"
+                },
+                {
+                    "id": 171,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/171"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "2000",
+            "url": "/api/v1/seasons/13",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 148,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 23,
+                            "name": "UIAA Climbing-Worldcup 2000"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/148"
+                },
+                {
+                    "id": 149,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/149"
+                },
+                {
+                    "id": 150,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/150"
+                },
+                {
+                    "id": 151,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/151"
+                },
+                {
+                    "id": 152,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/152"
+                },
+                {
+                    "id": 153,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/153"
+                },
+                {
+                    "id": 154,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 24,
+                            "name": "European Youth Cup 2000"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/154"
+                },
+                {
+                    "id": 155,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/155"
+                },
+                {
+                    "id": 156,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/156"
+                },
+                {
+                    "id": 157,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/157"
+                },
+                {
+                    "id": 158,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/158"
+                },
+                {
+                    "id": 159,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/159"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "1999",
+            "url": "/api/v1/seasons/12",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 136,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 21,
+                            "name": "UIAA Climbing-Worldcup 1999"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/136"
+                },
+                {
+                    "id": 137,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/137"
+                },
+                {
+                    "id": 138,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/138"
+                },
+                {
+                    "id": 139,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/139"
+                },
+                {
+                    "id": 140,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/140"
+                },
+                {
+                    "id": 141,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/141"
+                },
+                {
+                    "id": 142,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 22,
+                            "name": "European Youth Cup 1999"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/142"
+                },
+                {
+                    "id": 143,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/143"
+                },
+                {
+                    "id": 144,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/144"
+                },
+                {
+                    "id": 145,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/145"
+                },
+                {
+                    "id": 146,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/146"
+                },
+                {
+                    "id": 147,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/147"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "1998",
+            "url": "/api/v1/seasons/11",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 124,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 18,
+                            "name": "UIAA Climbing-Worldcup 1998"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/124"
+                },
+                {
+                    "id": 125,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/125"
+                },
+                {
+                    "id": 126,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/126"
+                },
+                {
+                    "id": 127,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/127"
+                },
+                {
+                    "id": 128,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/128"
+                },
+                {
+                    "id": 129,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/129"
+                },
+                {
+                    "id": 130,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 19,
+                            "name": "European Youth Cup 1998"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/130"
+                },
+                {
+                    "id": 131,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/131"
+                },
+                {
+                    "id": 132,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/132"
+                },
+                {
+                    "id": 133,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/133"
+                },
+                {
+                    "id": 134,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/134"
+                },
+                {
+                    "id": 135,
+                    "name": "Masters and Promotional Events",
+                    "cups": [
+                        {
+                            "id": 20,
+                            "name": "Top Rock Challenge 1998 - Bouldering"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/135"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "1997",
+            "url": "/api/v1/seasons/10",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 112,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 16,
+                            "name": "UIAA Climbing-Worldcup 1997"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/112"
+                },
+                {
+                    "id": 113,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/113"
+                },
+                {
+                    "id": 114,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/114"
+                },
+                {
+                    "id": 115,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/115"
+                },
+                {
+                    "id": 116,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/116"
+                },
+                {
+                    "id": 117,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/117"
+                },
+                {
+                    "id": 118,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 17,
+                            "name": "European Youth Cup 1997"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/118"
+                },
+                {
+                    "id": 119,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/119"
+                },
+                {
+                    "id": 120,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/120"
+                },
+                {
+                    "id": 121,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/121"
+                },
+                {
+                    "id": 122,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/122"
+                },
+                {
+                    "id": 123,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/123"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "1996",
+            "url": "/api/v1/seasons/9",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 100,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 14,
+                            "name": "UIAA Climbing-Worldcup 1996"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/100"
+                },
+                {
+                    "id": 101,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/101"
+                },
+                {
+                    "id": 102,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/102"
+                },
+                {
+                    "id": 103,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/103"
+                },
+                {
+                    "id": 104,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/104"
+                },
+                {
+                    "id": 105,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/105"
+                },
+                {
+                    "id": 106,
+                    "name": "IFSC Europe Youth",
+                    "cups": [
+                        {
+                            "id": 15,
+                            "name": "European Youth Cup 1996"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/106"
+                },
+                {
+                    "id": 107,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/107"
+                },
+                {
+                    "id": 108,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/108"
+                },
+                {
+                    "id": 109,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/109"
+                },
+                {
+                    "id": 110,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/110"
+                },
+                {
+                    "id": 111,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/111"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "1995",
+            "url": "/api/v1/seasons/8",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 88,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 13,
+                            "name": "UIAA Climbing-Worldcup 1995"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/88"
+                },
+                {
+                    "id": 89,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/89"
+                },
+                {
+                    "id": 90,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/90"
+                },
+                {
+                    "id": 91,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/91"
+                },
+                {
+                    "id": 92,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/92"
+                },
+                {
+                    "id": 93,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/93"
+                },
+                {
+                    "id": 94,
+                    "name": "IFSC Europe Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/94"
+                },
+                {
+                    "id": 95,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/95"
+                },
+                {
+                    "id": 96,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/96"
+                },
+                {
+                    "id": 97,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/97"
+                },
+                {
+                    "id": 98,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/98"
+                },
+                {
+                    "id": 99,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/99"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "1994",
+            "url": "/api/v1/seasons/7",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 76,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 12,
+                            "name": "UIAA Climbing-Worldcup 1994"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/76"
+                },
+                {
+                    "id": 77,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/77"
+                },
+                {
+                    "id": 78,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/78"
+                },
+                {
+                    "id": 79,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/79"
+                },
+                {
+                    "id": 80,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/80"
+                },
+                {
+                    "id": 81,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/81"
+                },
+                {
+                    "id": 82,
+                    "name": "IFSC Europe Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/82"
+                },
+                {
+                    "id": 83,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/83"
+                },
+                {
+                    "id": 84,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/84"
+                },
+                {
+                    "id": 85,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/85"
+                },
+                {
+                    "id": 86,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/86"
+                },
+                {
+                    "id": 87,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/87"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "1993",
+            "url": "/api/v1/seasons/6",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 64,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 11,
+                            "name": "UIAA Climbing-Worldcup 1993"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/64"
+                },
+                {
+                    "id": 65,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/65"
+                },
+                {
+                    "id": 66,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/66"
+                },
+                {
+                    "id": 67,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/67"
+                },
+                {
+                    "id": 68,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/68"
+                },
+                {
+                    "id": 69,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/69"
+                },
+                {
+                    "id": 70,
+                    "name": "IFSC Europe Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/70"
+                },
+                {
+                    "id": 71,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/71"
+                },
+                {
+                    "id": 72,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/72"
+                },
+                {
+                    "id": 73,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/73"
+                },
+                {
+                    "id": 74,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/74"
+                },
+                {
+                    "id": 75,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/75"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "1992",
+            "url": "/api/v1/seasons/5",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 52,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 10,
+                            "name": "UIAA Climbing-Worldcup 1992"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/52"
+                },
+                {
+                    "id": 53,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/53"
+                },
+                {
+                    "id": 54,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/54"
+                },
+                {
+                    "id": 55,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/55"
+                },
+                {
+                    "id": 56,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/56"
+                },
+                {
+                    "id": 57,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/57"
+                },
+                {
+                    "id": 58,
+                    "name": "IFSC Europe Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/58"
+                },
+                {
+                    "id": 59,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/59"
+                },
+                {
+                    "id": 60,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/60"
+                },
+                {
+                    "id": 61,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/61"
+                },
+                {
+                    "id": 62,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/62"
+                },
+                {
+                    "id": 63,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/63"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "1991",
+            "url": "/api/v1/seasons/4",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 40,
+                    "name": "World Cups and World Championships",
+                    "cups": [
+                        {
+                            "id": 9,
+                            "name": "UIAA Climbing-Worldcup 1991"
+                        }
+                    ],
+                    "url": "/api/v1/season_leagues/40"
+                },
+                {
+                    "id": 41,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/41"
+                },
+                {
+                    "id": 42,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/42"
+                },
+                {
+                    "id": 43,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/43"
+                },
+                {
+                    "id": 44,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/44"
+                },
+                {
+                    "id": 45,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/45"
+                },
+                {
+                    "id": 46,
+                    "name": "IFSC Europe Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/46"
+                },
+                {
+                    "id": 47,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/47"
+                },
+                {
+                    "id": 48,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/48"
+                },
+                {
+                    "id": 49,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/49"
+                },
+                {
+                    "id": 50,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/50"
+                },
+                {
+                    "id": 51,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/51"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "1990",
+            "url": "/api/v1/seasons/3",
+            "discipline_kinds": [
+                [
+                    0,
+                    "lead"
+                ],
+                [
+                    1,
+                    "speed"
+                ],
+                [
+                    2,
+                    "boulder"
+                ],
+                [
+                    3,
+                    "combined"
+                ],
+                [
+                    4,
+                    "boulder\u0026lead"
+                ]
+            ],
+            "leagues": [
+                {
+                    "id": 28,
+                    "name": "World Cups and World Championships",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/28"
+                },
+                {
+                    "id": 29,
+                    "name": "IFSC Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/29"
+                },
+                {
+                    "id": 30,
+                    "name": "IFSC Paraclimbing (L)",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/30"
+                },
+                {
+                    "id": 31,
+                    "name": "IFSC Asia Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/31"
+                },
+                {
+                    "id": 32,
+                    "name": "IFSC Asia Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/32"
+                },
+                {
+                    "id": 33,
+                    "name": "IFSC Europe Adults",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/33"
+                },
+                {
+                    "id": 34,
+                    "name": "IFSC Europe Youth",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/34"
+                },
+                {
+                    "id": 35,
+                    "name": "IFSC Panam",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/35"
+                },
+                {
+                    "id": 36,
+                    "name": "IFSC Oceania",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/36"
+                },
+                {
+                    "id": 37,
+                    "name": "Games",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/37"
+                },
+                {
+                    "id": 38,
+                    "name": "Other events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/38"
+                },
+                {
+                    "id": 39,
+                    "name": "Masters and Promotional Events",
+                    "cups": [],
+                    "url": "/api/v1/season_leagues/39"
+                }
+            ]
+        }
+    ]
+}

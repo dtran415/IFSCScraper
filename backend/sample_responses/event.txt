@@ -1,0 +1,2151 @@
+https://components.ifsc-climbing.org/results-api.php?api=season_leagues_calendar&league=418
+{
+  "events": [
+    {
+      "event": "IFSC - Climbing World Cup (B) - Hachioji (JPN) 2023",
+      "event_id": 1291,
+      "url": "/api/v1/events/1291",
+      "infosheet_url": "/events/1291/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-04-20 15:00:00 UTC",
+      "ends_at": "2023-04-23 14:59:00 UTC",
+      "local_start_date": "2023-04-21",
+      "local_end_date": "2023-04-23",
+      "timezone": {
+        "value": "Asia/Tokyo"
+      },
+      "d_cats": [
+        {
+          "id": 3,
+          "name": "BOULDER Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7669,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8120,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 9891,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/9891/startlist"
+                },
+                {
+                  "id": 9892,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/9892/startlist"
+                },
+                {
+                  "id": 9893,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/9893/startlist"
+                },
+                {
+                  "id": 9894,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/9894/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8122,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 9899,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/9899/startlist"
+                },
+                {
+                  "id": 9900,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/9900/startlist"
+                },
+                {
+                  "id": 9901,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/9901/startlist"
+                },
+                {
+                  "id": 9902,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/9902/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "BOULDER Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7670,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8121,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 9895,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/9895/startlist"
+                },
+                {
+                  "id": 9896,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/9896/startlist"
+                },
+                {
+                  "id": 9897,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/9897/startlist"
+                },
+                {
+                  "id": 9898,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/9898/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8123,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 9903,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/9903/startlist"
+                },
+                {
+                  "id": 9904,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/9904/startlist"
+                },
+                {
+                  "id": 9905,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/9905/startlist"
+                },
+                {
+                  "id": 9906,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/9906/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (B,S) - Seoul (KOR) 2023",
+      "event_id": 1292,
+      "url": "/api/v1/events/1292",
+      "infosheet_url": "/events/1292/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-04-27 15:00:00 UTC",
+      "ends_at": "2023-04-30 14:59:00 UTC",
+      "local_start_date": "2023-04-28",
+      "local_end_date": "2023-04-30",
+      "timezone": {
+        "value": "Asia/Seoul"
+      },
+      "d_cats": [
+        {
+          "id": 3,
+          "name": "BOULDER Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7671,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8154,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10143,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10143/startlist"
+                },
+                {
+                  "id": 10144,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10144/startlist"
+                },
+                {
+                  "id": 10145,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10145/startlist"
+                },
+                {
+                  "id": 10146,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10146/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "BOULDER Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7672,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8155,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10147,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10147/startlist"
+                },
+                {
+                  "id": 10148,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10148/startlist"
+                },
+                {
+                  "id": 10149,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10149/startlist"
+                },
+                {
+                  "id": 10150,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10150/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SPEED Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7673,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8530,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8530/startlist"
+                },
+                {
+                  "id": 8531,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8531/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8084,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9775,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9775/startlist"
+                },
+                {
+                  "id": 9776,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9776/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPEED Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7674,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8532,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8532/startlist"
+                },
+                {
+                  "id": 8533,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8533/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8085,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9777,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9777/startlist"
+                },
+                {
+                  "id": 9778,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9778/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (S) - Jakarta (INA) 2023",
+      "event_id": 1293,
+      "url": "/api/v1/events/1293",
+      "infosheet_url": "/events/1293/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-05-05 17:00:00 UTC",
+      "ends_at": "2023-05-07 16:59:00 UTC",
+      "local_start_date": "2023-05-06",
+      "local_end_date": "2023-05-07",
+      "timezone": {
+        "value": "Asia/Jakarta"
+      },
+      "d_cats": [
+        {
+          "id": 2,
+          "name": "SPEED Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7675,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8534,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8534/startlist"
+                },
+                {
+                  "id": 8535,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8535/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8088,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9783,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9783/startlist"
+                },
+                {
+                  "id": 9784,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9784/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPEED Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7676,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8536,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8536/startlist"
+                },
+                {
+                  "id": 8537,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8537/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8089,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9785,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9785/startlist"
+                },
+                {
+                  "id": 9786,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9786/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (B,S) - Salt Lake City (USA) 2023",
+      "event_id": 1294,
+      "url": "/api/v1/events/1294",
+      "infosheet_url": "/events/1294/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-05-19 06:00:00 UTC",
+      "ends_at": "2023-05-22 05:59:00 UTC",
+      "local_start_date": "2023-05-19",
+      "local_end_date": "2023-05-21",
+      "timezone": {
+        "value": "America/Denver"
+      },
+      "d_cats": [
+        {
+          "id": 3,
+          "name": "BOULDER Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7677,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8194,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10325,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10325/startlist"
+                },
+                {
+                  "id": 10326,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10326/startlist"
+                },
+                {
+                  "id": 10327,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10327/startlist"
+                },
+                {
+                  "id": 10328,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10328/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8196,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10333,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10333/startlist"
+                },
+                {
+                  "id": 10334,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10334/startlist"
+                },
+                {
+                  "id": 10335,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10335/startlist"
+                },
+                {
+                  "id": 10336,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10336/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "BOULDER Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7678,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8195,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10329,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10329/startlist"
+                },
+                {
+                  "id": 10330,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10330/startlist"
+                },
+                {
+                  "id": 10331,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10331/startlist"
+                },
+                {
+                  "id": 10332,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10332/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8197,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10337,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10337/startlist"
+                },
+                {
+                  "id": 10338,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10338/startlist"
+                },
+                {
+                  "id": 10339,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10339/startlist"
+                },
+                {
+                  "id": 10340,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10340/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SPEED Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7679,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8558,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8558/startlist"
+                },
+                {
+                  "id": 8559,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8559/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8090,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9787,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9787/startlist"
+                },
+                {
+                  "id": 9788,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9788/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPEED Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7680,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8560,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8560/startlist"
+                },
+                {
+                  "id": 8561,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8561/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8091,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9789,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9789/startlist"
+                },
+                {
+                  "id": 9790,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9790/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (B) - Prague (CZE) 2023",
+      "event_id": 1295,
+      "url": "/api/v1/events/1295",
+      "infosheet_url": "/events/1295/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-06-01 22:00:00 UTC",
+      "ends_at": "2023-06-04 21:59:00 UTC",
+      "local_start_date": "2023-06-02",
+      "local_end_date": "2023-06-04",
+      "timezone": {
+        "value": "Europe/Prague"
+      },
+      "d_cats": [
+        {
+          "id": 3,
+          "name": "BOULDER Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7681,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8206,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10385,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10385/startlist"
+                },
+                {
+                  "id": 10386,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10386/startlist"
+                },
+                {
+                  "id": 10387,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10387/startlist"
+                },
+                {
+                  "id": 10388,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10388/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8208,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10393,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10393/startlist"
+                },
+                {
+                  "id": 10394,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10394/startlist"
+                },
+                {
+                  "id": 10395,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10395/startlist"
+                },
+                {
+                  "id": 10396,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10396/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "BOULDER Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7682,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8207,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10389,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10389/startlist"
+                },
+                {
+                  "id": 10390,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10390/startlist"
+                },
+                {
+                  "id": 10391,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10391/startlist"
+                },
+                {
+                  "id": 10392,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10392/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8209,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10397,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10397/startlist"
+                },
+                {
+                  "id": 10398,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10398/startlist"
+                },
+                {
+                  "id": 10399,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10399/startlist"
+                },
+                {
+                  "id": 10400,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10400/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (B) - Brixen (ITA) 2023",
+      "event_id": 1296,
+      "url": "/api/v1/events/1296",
+      "infosheet_url": "/events/1296/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-06-08 22:00:00 UTC",
+      "ends_at": "2023-06-11 21:59:00 UTC",
+      "local_start_date": "2023-06-09",
+      "local_end_date": "2023-06-11",
+      "timezone": {
+        "value": "Europe/Rome"
+      },
+      "d_cats": [
+        {
+          "id": 3,
+          "name": "BOULDER Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7683,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8202,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10369,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10369/startlist"
+                },
+                {
+                  "id": 10370,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10370/startlist"
+                },
+                {
+                  "id": 10371,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10371/startlist"
+                },
+                {
+                  "id": 10372,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10372/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8204,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10377,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10377/startlist"
+                },
+                {
+                  "id": 10378,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10378/startlist"
+                },
+                {
+                  "id": 10379,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10379/startlist"
+                },
+                {
+                  "id": 10380,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10380/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "BOULDER Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7684,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8203,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10373,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10373/startlist"
+                },
+                {
+                  "id": 10374,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10374/startlist"
+                },
+                {
+                  "id": 10375,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10375/startlist"
+                },
+                {
+                  "id": 10376,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10376/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8205,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10381,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10381/startlist"
+                },
+                {
+                  "id": 10382,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10382/startlist"
+                },
+                {
+                  "id": 10383,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10383/startlist"
+                },
+                {
+                  "id": 10384,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10384/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (B,L) - Innsbruck (AUT) 2023",
+      "event_id": 1297,
+      "url": "/api/v1/events/1297",
+      "infosheet_url": "/events/1297/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-06-13 22:00:00 UTC",
+      "ends_at": "2023-06-18 21:59:00 UTC",
+      "local_start_date": "2023-06-14",
+      "local_end_date": "2023-06-18",
+      "timezone": {
+        "value": "Europe/Vienna"
+      },
+      "d_cats": [
+        {
+          "id": 3,
+          "name": "BOULDER Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7685,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8250,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10565,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10565/startlist"
+                },
+                {
+                  "id": 10566,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10566/startlist"
+                },
+                {
+                  "id": 10567,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10567/startlist"
+                },
+                {
+                  "id": 10568,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10568/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8252,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10573,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10573/startlist"
+                },
+                {
+                  "id": 10574,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10574/startlist"
+                },
+                {
+                  "id": 10575,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10575/startlist"
+                },
+                {
+                  "id": 10576,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10576/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "BOULDER Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7686,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8251,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10569,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10569/startlist"
+                },
+                {
+                  "id": 10570,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10570/startlist"
+                },
+                {
+                  "id": 10571,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10571/startlist"
+                },
+                {
+                  "id": 10572,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10572/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8253,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10577,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10577/startlist"
+                },
+                {
+                  "id": 10578,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10578/startlist"
+                },
+                {
+                  "id": 10579,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10579/startlist"
+                },
+                {
+                  "id": 10580,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10580/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "LEAD Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7687,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8622,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8622/startlist",
+                  "ranking": "/api/v1/routes/8622/results"
+                },
+                {
+                  "id": 8623,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8623/startlist",
+                  "ranking": "/api/v1/routes/8623/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8124,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 9907,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/9907/startlist",
+                  "ranking": "/api/v1/routes/9907/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8264,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10591,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10591/startlist",
+                  "ranking": "/api/v1/routes/10591/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "LEAD Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7688,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8624,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8624/startlist",
+                  "ranking": "/api/v1/routes/8624/results"
+                },
+                {
+                  "id": 8625,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8625/startlist",
+                  "ranking": "/api/v1/routes/8625/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8125,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 9908,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/9908/startlist",
+                  "ranking": "/api/v1/routes/9908/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8265,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10592,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10592/startlist",
+                  "ranking": "/api/v1/routes/10592/results"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (L,S) - Villars (SUI) 2023",
+      "event_id": 1298,
+      "url": "/api/v1/events/1298",
+      "infosheet_url": "/events/1298/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-06-29 22:00:00 UTC",
+      "ends_at": "2023-07-02 21:59:00 UTC",
+      "local_start_date": "2023-06-30",
+      "local_end_date": "2023-07-02",
+      "timezone": {
+        "value": "Europe/Zurich"
+      },
+      "d_cats": [
+        {
+          "id": 1,
+          "name": "LEAD Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7689,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8626,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8626/startlist",
+                  "ranking": "/api/v1/routes/8626/results"
+                },
+                {
+                  "id": 8627,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8627/startlist",
+                  "ranking": "/api/v1/routes/8627/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8260,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10587,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10587/startlist",
+                  "ranking": "/api/v1/routes/10587/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8262,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10589,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10589/startlist",
+                  "ranking": "/api/v1/routes/10589/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "LEAD Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7690,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8628,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8628/startlist",
+                  "ranking": "/api/v1/routes/8628/results"
+                },
+                {
+                  "id": 8629,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8629/startlist",
+                  "ranking": "/api/v1/routes/8629/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8261,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10588,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10588/startlist",
+                  "ranking": "/api/v1/routes/10588/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8263,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10590,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10590/startlist",
+                  "ranking": "/api/v1/routes/10590/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SPEED Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7691,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8630,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8630/startlist"
+                },
+                {
+                  "id": 8631,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8631/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8118,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9887,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9887/startlist"
+                },
+                {
+                  "id": 9888,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9888/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPEED Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7692,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8632,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8632/startlist"
+                },
+                {
+                  "id": 8633,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8633/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8119,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9889,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9889/startlist"
+                },
+                {
+                  "id": 9890,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9890/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (L,S) - Chamonix (FRA) 2023",
+      "event_id": 1299,
+      "url": "/api/v1/events/1299",
+      "infosheet_url": "/events/1299/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-07-06 22:00:00 UTC",
+      "ends_at": "2023-07-09 21:59:00 UTC",
+      "local_start_date": "2023-07-07",
+      "local_end_date": "2023-07-09",
+      "timezone": {
+        "value": "Europe/Paris"
+      },
+      "d_cats": [
+        {
+          "id": 1,
+          "name": "LEAD Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7693,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8634,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8634/startlist",
+                  "ranking": "/api/v1/routes/8634/results"
+                },
+                {
+                  "id": 8635,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8635/startlist",
+                  "ranking": "/api/v1/routes/8635/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8330,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10735,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10735/startlist",
+                  "ranking": "/api/v1/routes/10735/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8332,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10737,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10737/startlist",
+                  "ranking": "/api/v1/routes/10737/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "LEAD Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7694,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8636,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8636/startlist",
+                  "ranking": "/api/v1/routes/8636/results"
+                },
+                {
+                  "id": 8637,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8637/startlist",
+                  "ranking": "/api/v1/routes/8637/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8331,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10736,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10736/startlist",
+                  "ranking": "/api/v1/routes/10736/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8333,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10738,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10738/startlist",
+                  "ranking": "/api/v1/routes/10738/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SPEED Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7695,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8638,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8638/startlist"
+                },
+                {
+                  "id": 8639,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8639/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8334,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 10739,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/10739/startlist"
+                },
+                {
+                  "id": 10740,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/10740/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPEED Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7696,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8640,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8640/startlist"
+                },
+                {
+                  "id": 8641,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8641/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8335,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 10741,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/10741/startlist"
+                },
+                {
+                  "id": 10742,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/10742/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (L) - Briançon (FRA) 2023",
+      "event_id": 1300,
+      "url": "/api/v1/events/1300",
+      "infosheet_url": "/events/1300/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-07-13 22:00:00 UTC",
+      "ends_at": "2023-07-15 21:59:00 UTC",
+      "local_start_date": "2023-07-14",
+      "local_end_date": "2023-07-15",
+      "timezone": {
+        "value": "Europe/Paris"
+      },
+      "d_cats": [
+        {
+          "id": 1,
+          "name": "LEAD Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7697,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8642,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8642/startlist",
+                  "ranking": "/api/v1/routes/8642/results"
+                },
+                {
+                  "id": 8643,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8643/startlist",
+                  "ranking": "/api/v1/routes/8643/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8316,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10707,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10707/startlist",
+                  "ranking": "/api/v1/routes/10707/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8328,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10733,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10733/startlist",
+                  "ranking": "/api/v1/routes/10733/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "LEAD Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7698,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8644,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8644/startlist",
+                  "ranking": "/api/v1/routes/8644/results"
+                },
+                {
+                  "id": 8645,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8645/startlist",
+                  "ranking": "/api/v1/routes/8645/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8317,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10708,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10708/startlist",
+                  "ranking": "/api/v1/routes/10708/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8329,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10734,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10734/startlist",
+                  "ranking": "/api/v1/routes/10734/results"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Championships (B,L,S,B&L) - Bern (SUI) 2023",
+      "event_id": 1301,
+      "url": "/api/v1/events/1301",
+      "infosheet_url": "/events/1301/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-07-31 22:00:00 UTC",
+      "ends_at": "2023-08-12 21:59:00 UTC",
+      "local_start_date": "2023-08-01",
+      "local_end_date": "2023-08-12",
+      "timezone": {
+        "value": "Europe/Zurich"
+      },
+      "d_cats": [
+        {
+          "id": 3,
+          "name": "BOULDER Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7699,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8318,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10709,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10709/startlist"
+                },
+                {
+                  "id": 10710,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10710/startlist"
+                },
+                {
+                  "id": 10711,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10711/startlist"
+                },
+                {
+                  "id": 10712,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10712/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8320,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10717,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10717/startlist"
+                },
+                {
+                  "id": 10718,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10718/startlist"
+                },
+                {
+                  "id": 10719,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10719/startlist"
+                },
+                {
+                  "id": 10720,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10720/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "BOULDER Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7700,
+              "format": "IFSC: 2 groups",
+              "routes": []
+            },
+            {
+              "category_round_id": 8319,
+              "format": "IFSC: 1 group",
+              "routes": [
+                {
+                  "id": 10713,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10713/startlist"
+                },
+                {
+                  "id": 10714,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10714/startlist"
+                },
+                {
+                  "id": 10715,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10715/startlist"
+                },
+                {
+                  "id": 10716,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10716/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8321,
+              "format": "IFSC: Finals",
+              "routes": [
+                {
+                  "id": 10721,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10721/startlist"
+                },
+                {
+                  "id": 10722,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/10722/startlist"
+                },
+                {
+                  "id": 10723,
+                  "name": "3",
+                  "startlist": "/api/v1/routes/10723/startlist"
+                },
+                {
+                  "id": 10724,
+                  "name": "4",
+                  "startlist": "/api/v1/routes/10724/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "name": "LEAD Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7701,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8666,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8666/startlist",
+                  "ranking": "/api/v1/routes/8666/results"
+                },
+                {
+                  "id": 8667,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8667/startlist",
+                  "ranking": "/api/v1/routes/8667/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8322,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10725,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10725/startlist",
+                  "ranking": "/api/v1/routes/10725/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8324,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10727,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10727/startlist",
+                  "ranking": "/api/v1/routes/10727/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "LEAD Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7702,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8668,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8668/startlist",
+                  "ranking": "/api/v1/routes/8668/results"
+                },
+                {
+                  "id": 8669,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8669/startlist",
+                  "ranking": "/api/v1/routes/8669/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8323,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10726,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10726/startlist",
+                  "ranking": "/api/v1/routes/10726/results"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8325,
+              "format": "IFSC: 1 route",
+              "routes": [
+                {
+                  "id": 10728,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/10728/startlist",
+                  "ranking": "/api/v1/routes/10728/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SPEED Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7703,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8670,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8670/startlist"
+                },
+                {
+                  "id": 8671,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8671/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8326,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 10729,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/10729/startlist"
+                },
+                {
+                  "id": 10730,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/10730/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPEED Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7704,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8672,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8672/startlist"
+                },
+                {
+                  "id": 8673,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8673/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8327,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 10731,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/10731/startlist"
+                },
+                {
+                  "id": 10732,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/10732/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (L) - Koper (SLO) 2023",
+      "event_id": 1302,
+      "url": "/api/v1/events/1302",
+      "infosheet_url": "/events/1302/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-09-07 22:00:00 UTC",
+      "ends_at": "2023-09-09 21:59:00 UTC",
+      "local_start_date": "2023-09-08",
+      "local_end_date": "2023-09-09",
+      "timezone": {
+        "value": "Europe/Ljubljana"
+      },
+      "d_cats": [
+        {
+          "id": 1,
+          "name": "LEAD Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7705,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8674,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8674/startlist",
+                  "ranking": "/api/v1/routes/8674/results"
+                },
+                {
+                  "id": 8675,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8675/startlist",
+                  "ranking": "/api/v1/routes/8675/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "LEAD Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7706,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8676,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8676/startlist",
+                  "ranking": "/api/v1/routes/8676/results"
+                },
+                {
+                  "id": 8677,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8677/startlist",
+                  "ranking": "/api/v1/routes/8677/results"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "event": "IFSC - Climbing World Cup (L,S) - Wujiang (CHN) 2023",
+      "event_id": 1303,
+      "url": "/api/v1/events/1303",
+      "infosheet_url": "/events/1303/infosheet",
+      "additional_info_url": null,
+      "starts_at": "2023-09-21 16:00:00 UTC",
+      "ends_at": "2023-09-24 15:59:00 UTC",
+      "local_start_date": "2023-09-22",
+      "local_end_date": "2023-09-24",
+      "timezone": {
+        "value": "Asia/Chongqing"
+      },
+      "d_cats": [
+        {
+          "id": 1,
+          "name": "LEAD Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7707,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8678,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8678/startlist",
+                  "ranking": "/api/v1/routes/8678/results"
+                },
+                {
+                  "id": 8679,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8679/startlist",
+                  "ranking": "/api/v1/routes/8679/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "LEAD Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7708,
+              "format": "IFSC: 2 routes",
+              "routes": [
+                {
+                  "id": 8680,
+                  "name": "1",
+                  "startlist": "/api/v1/routes/8680/startlist",
+                  "ranking": "/api/v1/routes/8680/results"
+                },
+                {
+                  "id": 8681,
+                  "name": "2",
+                  "startlist": "/api/v1/routes/8681/startlist",
+                  "ranking": "/api/v1/routes/8681/results"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "SPEED Men",
+          "category_rounds": [
+            {
+              "category_round_id": 7709,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8682,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8682/startlist"
+                },
+                {
+                  "id": 8683,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8683/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8086,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9779,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9779/startlist"
+                },
+                {
+                  "id": 9780,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9780/startlist"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "SPEED Women",
+          "category_rounds": [
+            {
+              "category_round_id": 7710,
+              "format": "IFSC: Qualification",
+              "routes": [
+                {
+                  "id": 8684,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/8684/startlist"
+                },
+                {
+                  "id": 8685,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/8685/startlist"
+                }
+              ]
+            },
+            {
+              "category_round_id": 8087,
+              "format": "IFSC 2023: Elimination",
+              "routes": [
+                {
+                  "id": 9781,
+                  "name": "A",
+                  "startlist": "/api/v1/routes/9781/startlist"
+                },
+                {
+                  "id": 9782,
+                  "name": "B",
+                  "startlist": "/api/v1/routes/9782/startlist"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
