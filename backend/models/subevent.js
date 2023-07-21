@@ -31,7 +31,7 @@ SubEvent.init({
     ]
 })
 
-SubEvent.Event = SubEvent.belongsTo(Event);
+SubEvent.belongsTo(Event);
 Event.hasMany(SubEvent);
 
 module.exports = SubEvent;

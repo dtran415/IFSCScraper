@@ -9,12 +9,15 @@ const app = express();
 app.use(express.json());
 
 const eventRoutes = require("./routes/events.js");
+const athleteRoutes = require("./routes/athletes.js");
+
 const Athlete = require('./models/athlete.js');
 const Country = require("./models/country.js");
 const OverallResult = require('./models/overall_result.js');
 const { parseAll } = require("./helpers/parsers.js");
 
 app.use("/events", eventRoutes);
+app.use("/athletes", athleteRoutes);
 
 /** 404 handler */
 
