@@ -10,6 +10,8 @@ app.use(express.json());
 
 const eventRoutes = require("./routes/events.js");
 const athleteRoutes = require("./routes/athletes.js");
+const countryRoutes = require("./routes/countries.js");
+const comparisonRoutes = require("./routes/comparisons.js");
 
 const Athlete = require('./models/athlete.js');
 const Country = require("./models/country.js");
@@ -18,6 +20,8 @@ const { parseAll } = require("./helpers/parsers.js");
 
 app.use("/events", eventRoutes);
 app.use("/athletes", athleteRoutes);
+app.use("/countries", countryRoutes);
+app.use("/compare", comparisonRoutes);
 
 /** 404 handler */
 

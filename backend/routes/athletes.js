@@ -4,7 +4,6 @@ const Event = require("../models/event");
 const SubEvent = require("../models/subevent");
 const OverallResult = require("../models/overall_result");
 const Athlete = require("../models/athlete");
-const ScrapeTracker = require("../models/scrape_tracker");
 const Country = require("../models/country");
 const ExpressError = require("../expressError");
 const { sequelize } = require("../db");
@@ -25,11 +24,7 @@ router.get("/", async function (req, res, next) {
             const athleteId = athleteData.id;
             const athlete = new AthletesDTO();
             athletesMap.set(athleteId, athlete);
-            athlete.id = athleteId;
-            athlete.firstName = athleteData.firstName;
-            athlete.lastName = athleteData.lastName;
-            athlete.gender = athleteData.gender;
-            athlete.country.code = athleteData.Country.code;
+            athlete.addAthleteData(athleteData);
         }
 
         const medalsResult = await OverallResult.findAll({
@@ -52,9 +47,7 @@ router.get("/", async function (req, res, next) {
             if (!athlete)
                 continue;
 
-            athlete.medals.bronze = result.bronze;
-            athlete.medals.silver = result.silver;
-            athlete.medals.gold = result.gold;
+            athlete.addMedalData(result);
         }
 
         const athletes = [];
