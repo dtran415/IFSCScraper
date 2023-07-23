@@ -22,7 +22,25 @@ router.get("/", async function(req, res, next) {
                 }
             }]
         });
-        return res.json({events});
+
+
+        const processedEvents = [];
+
+        for ( let event of events) {
+            // skip events with no subevents
+            if (event.SubEvents.length === 0)
+                continue;
+
+            processedEvents.push({
+                id: event.id,
+                title: event.title,
+                dateStart: event.dateStart,
+                dateEnd: event.dateEnd,
+                SubEvents: event.SubEvents
+            })
+        }
+        
+        return res.json({events: processedEvents});
     } catch (err) {
         return next(err);
     }
@@ -30,6 +48,12 @@ router.get("/", async function(req, res, next) {
 
 router.get("/:eventId/:catId", async function(req, res, next) {
     try {
+        const event = await Event.findOne({
+            where: {
+                id: req.params.eventId
+            }
+        });
+
         const overallResults = await OverallResult.findAll({
             include: [{
                 model: SubEvent,
@@ -42,7 +66,7 @@ router.get("/:eventId/:catId", async function(req, res, next) {
             order: [['rank', 'ASC']]
         });
 
-        return res.json({overallResults});
+        return res.json({title: event.title, overallResults});
     } catch (err) {
         return next(err);
     }

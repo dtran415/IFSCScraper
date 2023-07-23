@@ -73,7 +73,3 @@ describe("parseOverall", function () {
         expect(records.length).toBeTruthy();
     })
 });
-
-it("test", ()=>{
-    console.log('done');
-});

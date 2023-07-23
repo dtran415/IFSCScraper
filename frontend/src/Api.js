@@ -7,6 +7,11 @@ class IFSCScraperAPI {
         const result = await axios.get(`${BASE_API_URL}/events`);
         return result.data;
     }
+
+    static async getEvent(id, catId) {
+        const result = await axios.get(`${BASE_API_URL}/events/${id}/${catId}`);
+        return result.data;
+    }
 }
 
 export default IFSCScraperAPI;

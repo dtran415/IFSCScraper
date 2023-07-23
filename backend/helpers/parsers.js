@@ -84,8 +84,6 @@ async function parseEvents(leagueId) {
     // we'll use eventid_dcatid as identifier for overall result ifsc id
     const scrapedOverallSet = await getScrapedSet("overall_result");
 
-    console.log(scrapedOverallSet);
-
     const url = `https://components.ifsc-climbing.org/results-api.php?api=season_leagues_calendar&league=${leagueId}`;
     let resp = await axios.get(url);
     const data = resp.data;

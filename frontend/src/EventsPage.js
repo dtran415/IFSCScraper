@@ -8,7 +8,6 @@ function EventsPage() {
     const [events, setEvents] = useState();
 
     useEffect(() => {
-        console.log("fetching");
         async function getEvents() {
             const events = await IFSCScraperAPI.getEvents();
             console.log(events);
@@ -25,7 +24,7 @@ function EventsPage() {
 
     const list = events.events.map(e => {
         const date = new Date(e.dateStart);
-        const options = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}
+        const options = {year: 'numeric', month: 'long', day: 'numeric'}
         const event = {
             id: e.id,
             name: e.title,

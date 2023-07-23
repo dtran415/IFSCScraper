@@ -35,8 +35,6 @@ router.get("/countries", async function (req, res, next) {
             countries.push(result['Athlete.Country.code']);
         }
 
-        console.log(countries);
-
         // medals by country per event
         const medalsResult2 = await OverallResult.findAll({
             attributes: [[sequelize.literal('COUNT(CASE WHEN rank=1 THEN 1 END)'), 'gold'], [sequelize.literal('COUNT(CASE WHEN rank=2 THEN 1 END)'), 'silver'],
