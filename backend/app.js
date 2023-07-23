@@ -4,8 +4,10 @@ connect();
 sync({ alter: true });
 
 const ExpressError = require("./expressError.js");
+const cors = require("cors");
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 const eventRoutes = require("./routes/events.js");
