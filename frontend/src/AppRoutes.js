@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import EventsPage from "./EventsPage";
 import Rankings from "./Rankings";
 import NavBar from "./NavBar";
+import Athletes from "./Athletes";
+import Countries from "./Countries";
 
 function AppRoutes() {
     return (
@@ -11,6 +13,8 @@ function AppRoutes() {
             <Routes>
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/events/:eventId/:catId" element={<Rankings />} />
+                <Route path="/athletes" element={<Athletes />} />
+                <Route path="/countries" element={<Countries />} />
             </Routes>
         </BrowserRouter>
     )

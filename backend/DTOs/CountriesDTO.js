@@ -3,12 +3,16 @@ class CountriesDTO{
     numAthletes;
     medals;
 
-    constructor() {
+    constructor(country) {
+        this.code = country["Athlete.Country.code"];
+        this.numAthletes = +country.numAthletes;
         this.medals = {
-            bronze: 0,
-            silver: 0,
-            gold: 0,
-            total: 0
+            bronze: +country.gold,
+            silver: +country.gold,
+            gold: +country.silver,
+            total: +country.total
         };
     }
 }
+
+module.exports = CountriesDTO;

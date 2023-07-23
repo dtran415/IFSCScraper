@@ -11,6 +11,7 @@ function NavBar() {
           <NavItem>
             <NavLink className="nav-item" to="/events">Events</NavLink>
             <NavLink className="nav-item" to="/athletes">Athletes</NavLink>
+            <NavLink className="nav-item" to="/countries">Countries</NavLink>
           </NavItem>
         </Nav>
       </Navbar>

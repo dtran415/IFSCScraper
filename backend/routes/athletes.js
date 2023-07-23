@@ -30,12 +30,12 @@ router.get("/", async function (req, res, next) {
         const medalsResult = await OverallResult.findAll({
             Athlete,
             attributes: [[sequelize.literal('COUNT(CASE WHEN rank=1 THEN 1 END)'), 'gold'], [sequelize.literal('COUNT(CASE WHEN rank=2 THEN 1 END)'), 'silver'],
-            [sequelize.literal('COUNT(CASE WHEN rank=3 THEN 1 END)'), 'bronze']],
+            [sequelize.literal('COUNT(CASE WHEN rank=3 THEN 1 END)'), 'bronze'],
+            [sequelize.literal('COUNT(CASE WHEN rank in (1,2,3) THEN 1 END)'), 'total']
+        ],
             raw: true,
             order: [
-                ['gold', 'DESC'],
-                ['silver', 'DESC'],
-                ['bronze', 'DESC']
+                ['total', 'DESC']
             ],
             group: ['Athlete.id'],
             include: [Athlete],

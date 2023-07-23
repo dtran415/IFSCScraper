@@ -30,7 +30,7 @@ class AthletesDTO {
         this.medals.bronze = +medalData.bronze;
         this.medals.silver = +medalData.silver;
         this.medals.gold = +medalData.gold;
-        this.medals.total = this.medals.bronze + this.medals.silver + this.medals.gold;
+        this.medals.total = +medalData.total;
     }
 }
 
