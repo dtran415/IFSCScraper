@@ -19,7 +19,7 @@ class AthletesDTO {
     }
 
     addAthleteData(athleteData) {
-        this.id = athleteData.athleteId;
+        this.id = athleteData.id;
         this.firstName = athleteData.firstName;
         this.lastName = athleteData.lastName;
         this.gender = athleteData.gender;

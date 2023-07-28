@@ -7,6 +7,7 @@ const Athlete = require("../models/athlete");
 const Country = require("../models/country");
 const { sequelize } = require("../db");
 const { Op } = require("sequelize");
+const ExpressError = require("../expressError");
 
 router.get("/countries", async function (req, res, next) {
     try {
@@ -63,6 +64,69 @@ router.get("/countries", async function (req, res, next) {
     } catch (err) {
         return next(err);
     }
+});
+
+router.get('/athletes', async (req, res, next) => {
+    try {
+        const ids = req.query.ids.split(",").map(id => +id);
+        if (ids.length === 0)
+            throw ExpressError("Please supply athlete ids to compare");
+
+        // get events
+        const events = await Event.findAll();
+
+        // get athletes
+        const athletes = await Athlete.findAll({
+            where: {
+                id: { [Op.in]: ids }
+            }
+        })
+
+        const rankings = await OverallResult.findAll({
+            include: {
+                model: SubEvent,
+                include: [Event]
+            },
+            where: {
+                AthleteId: { [Op.in]: ids }
+            }
+        })
+
+        // create a map for event look up
+        const eventsMap = {};
+        for (let event of events) {
+            eventsMap[event.id] = { title: event.title, date: event.dateStart };
+        }
+
+        const athleteData = {};
+        // loop through each athlete and create data for graphs
+        for (let athlete of athletes) {
+            let athleteObj = {
+                id: athlete.id,
+                firstName: athlete.firstName,
+                lastName: athlete.lastName,
+                country: athlete.CountryCode,
+                rankings: []
+            };
+            athleteData[athlete.id] = athleteObj;
+        }
+
+        for (let ranking of rankings) {
+            let rankingObj = {
+                rank: ranking.rank,
+                type: ranking.SubEvent.type,
+                eventId: ranking.SubEvent.Event.id
+            }
+
+            athleteData[ranking.AthleteId].rankings.push(rankingObj);
+        }
+
+        return res.json({ events: eventsMap, athletes: athleteData });
+    } catch (err) {
+        return next(err);
+    }
+
+
 });
 
 module.exports = router;

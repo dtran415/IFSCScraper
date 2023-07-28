@@ -22,6 +22,11 @@ class IFSCScraperAPI {
         const result = await axios.get(`${BASE_API_URL}/countries`);
         return result.data;
     }
+
+    static async getAthleteComparison(ids) {
+        const result = await axios.get(`${BASE_API_URL}/compare/athletes`, { params: {ids: ids}});
+        return result.data;
+    }
 }
 
 export default IFSCScraperAPI;

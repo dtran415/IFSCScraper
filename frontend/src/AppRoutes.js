@@ -5,6 +5,7 @@ import Rankings from "./Rankings";
 import NavBar from "./NavBar";
 import Athletes from "./Athletes";
 import Countries from "./Countries";
+import CompareAthletes from "./CompareAthletes";
 
 function AppRoutes() {
     return (
@@ -15,6 +16,7 @@ function AppRoutes() {
                 <Route path="/events/:eventId/:catId" element={<Rankings />} />
                 <Route path="/athletes" element={<Athletes />} />
                 <Route path="/countries" element={<Countries />} />
+                <Route path="/compare/athletes" element={<CompareAthletes />} />
             </Routes>
         </BrowserRouter>
     )

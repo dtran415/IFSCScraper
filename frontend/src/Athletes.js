@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import MUIDataTable from "mui-datatables";
 import IFSCScraperAPI from "./Api";
+import { Button } from "reactstrap";
+import { useNavigate } from "react-router-dom";
 
 function Athletes() {
     const [isLoading, setIsLoading] = useState(true);
     const [athletes, setAthletes] = useState();
-
+    const navigate = useNavigate();
 
     useEffect(() => {
         async function getAthletes() {
@@ -35,17 +37,32 @@ function Athletes() {
         data.push([`${athlete.lastName} ${athlete.firstName}`, athlete.gender.toUpperCase(), athlete.country.code, athlete.medals.gold, athlete.medals.silver, athlete.medals.bronze, athlete.medals.total]);
     };
 
+    const CustomToolbar = (data) => {
+
+        function onClickCompare() {
+            const selectedAthletes = Object.keys(data.lookup).map(d => athletes[d].id);
+            navigate(`/compare/athletes?ids=${selectedAthletes.join(',')}`)
+        }
+
+        return (
+            <>
+                <Button onClick={onClickCompare} className="me-3" color="primary">Compare</Button>
+            </>
+        );
+    }
+
     const options = {
         filter: true,
         print: false,
         download: false,
         viewColumns: false,
         rowsPerPage: 100,
-        selectableRows: 'none',
+        // selectableRows: 'none',
         sortOrder: {
             name: 'Total',
             direction: 'desc'
-        }
+        },
+        customToolbarSelect: CustomToolbar
     };
 
     return <MUIDataTable

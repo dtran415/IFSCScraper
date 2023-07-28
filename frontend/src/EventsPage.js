@@ -10,7 +10,6 @@ function EventsPage() {
     useEffect(() => {
         async function getEvents() {
             const events = await IFSCScraperAPI.getEvents();
-            console.log(events);
             setEvents(events);
             setIsLoading(false);
         }
