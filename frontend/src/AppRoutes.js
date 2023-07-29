@@ -6,6 +6,7 @@ import NavBar from "./NavBar";
 import Athletes from "./Athletes";
 import Countries from "./Countries";
 import CompareAthletes from "./CompareAthletes";
+import Athlete from "./Athlete";
 
 function AppRoutes() {
     return (
@@ -17,6 +18,7 @@ function AppRoutes() {
                 <Route path="/athletes" element={<Athletes />} />
                 <Route path="/countries" element={<Countries />} />
                 <Route path="/compare/athletes" element={<CompareAthletes />} />
+                <Route path="/athletes/:athleteId" element={<Athlete />} />
             </Routes>
         </BrowserRouter>
     )

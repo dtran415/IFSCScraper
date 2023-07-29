@@ -8,6 +8,7 @@ const Country = require("../models/country");
 const ExpressError = require("../expressError");
 const { sequelize } = require("../db");
 const AthletesDTO = require("../DTOs/AthletesDTO");
+const AthleteDTO = require("../DTOs/AthleteDTO");
 
 // list all athletes
 router.get("/", async function (req, res, next) {
@@ -69,7 +70,9 @@ router.get("/:athleteId", async function (req, res, next) {
             throw new ExpressError("Invalid Athlete");
 
         const athlete = await Athlete.findOne({
-            id: athleteId
+            where: {
+                id: athleteId
+            }
         });
 
         if (!athlete) {
@@ -92,7 +95,11 @@ router.get("/:athleteId", async function (req, res, next) {
             }],
             order: [[sequelize.col('SubEvent->Event.dateStart'), 'DESC']]
         });
-        return res.json({ result: rankings });
+
+        const athleteData = new AthleteDTO(athlete);
+        athleteData.addRankings(rankings);
+
+        return res.json({ athlete: athleteData });
     } catch (err) {
         return next(err);
     }

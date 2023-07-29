@@ -24,7 +24,15 @@ function Athletes() {
     }
 
     const columns = [
-        {name: "Name", options: { filter: false}}, 
+        {name: "Name", options: { filter: false, 
+            customBodyRender: (value, tableMeta, updateValue) => {
+                const rowIndex = tableMeta.rowIndex;
+                const athleteIndex = tableMeta.currentTableData[rowIndex].index;
+                const athleteId = athletes[athleteIndex].id;
+                return (
+                    <a href={`/athletes/${athleteId}`}>{value}</a>
+                )
+            }}}, 
         {name: "Gender", options: { filter: true}}, 
         {name: "Country", options: {filter: true}}, 
         {name: "Gold", options: { filter: true}},  
