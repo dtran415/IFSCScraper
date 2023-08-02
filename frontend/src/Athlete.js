@@ -36,30 +36,20 @@ function Athlete() {
 
     const data = [];
 
-    const events = {};
-    const athletes =
-    {
-        [athlete.id]: {
-            id: athlete.id,
-            firstName: athlete.firstName,
-            lastName: athlete.lastName,
-            country: athlete.country,
-            rankings: []
-        }
-    };
+    const graphData = {
+        athletes: [
+            {
+                id: athlete.id,
+                firstName: athlete.firstName,
+                lastName: athlete.lastName,
+                results: []
+            }
+        ]
+    }
 
     for (let result of athlete.results) {
-        // graph table
-        events[result.eventId] = {
-            title: result.eventTitle,
-            date: result.date
-        }
-
-        athletes[athlete.id].rankings.push({
-            rank: result.rank,
-            type: result.type,
-            eventId: result.eventId
-        });
+        // graph data
+        graphData.athletes[0].results.push(result)
 
         // table data
         data.push([result.rank, result.eventTitle, new Date(result.date).toISOString().split('T')[0], result.type, result.qualifierScore, result.semifinalScore, result.finalScore]);
@@ -107,7 +97,7 @@ function Athlete() {
             </div>
         </div>
         <div className="m-5">
-            <RankingGraph events={events} athletes={athletes} />
+            <RankingGraph athletes={graphData.athletes} />
         </div>
         <MUIDataTable
             className="m-5"

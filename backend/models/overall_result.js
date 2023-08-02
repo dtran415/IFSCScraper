@@ -27,5 +27,6 @@ Athlete.belongsToMany(SubEvent, {through: OverallResult});
 SubEvent.belongsToMany(Athlete, {through: OverallResult});
 OverallResult.belongsTo(SubEvent);
 OverallResult.belongsTo(Athlete);
+Athlete.hasMany(OverallResult);
 
 module.exports = OverallResult;

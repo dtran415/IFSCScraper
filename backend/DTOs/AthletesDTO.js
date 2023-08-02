@@ -1,3 +1,4 @@
+// data for athletes table
 class AthletesDTO {
     id;
     firstName;

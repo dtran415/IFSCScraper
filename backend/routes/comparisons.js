@@ -8,6 +8,7 @@ const Country = require("../models/country");
 const { sequelize } = require("../db");
 const { Op } = require("sequelize");
 const ExpressError = require("../expressError");
+const ComparisonsAthleteDTO = require("../DTOs/ComparisonsAthleteDTO");
 
 router.get("/countries", async function (req, res, next) {
     try {
@@ -72,56 +73,47 @@ router.get('/athletes', async (req, res, next) => {
         if (ids.length === 0)
             throw ExpressError("Please supply athlete ids to compare");
 
-        // get events
-        const events = await Event.findAll();
-
         // get athletes
         const athletes = await Athlete.findAll({
+            attributes: ['id', 'firstName', 'lastName'],
             where: {
                 id: { [Op.in]: ids }
-            }
-        })
-
-        const rankings = await OverallResult.findAll({
-            include: {
-                model: SubEvent,
-                include: [Event]
             },
-            where: {
-                AthleteId: { [Op.in]: ids }
+            include: {
+                attributes: ['rank'],
+                model: OverallResult,
+                include: {
+                    attributes: ['type'],
+                    model: SubEvent,
+                    include: {
+                        attributes: ['id', 'title', 'dateStart'],
+                        model: Event
+                    }
+                }
             }
         })
 
-        // create a map for event look up
-        const eventsMap = {};
-        for (let event of events) {
-            eventsMap[event.id] = { title: event.title, date: event.dateStart };
-        }
-
-        const athleteData = {};
-        // loop through each athlete and create data for graphs
+        const output = new ComparisonsAthleteDTO();
         for (let athlete of athletes) {
-            let athleteObj = {
-                id: athlete.id,
-                firstName: athlete.firstName,
-                lastName: athlete.lastName,
-                country: athlete.CountryCode,
-                rankings: []
-            };
-            athleteData[athlete.id] = athleteObj;
-        }
+            const athleteDTO = new ComparisonsAthleteDTO.Athlete();
+            athleteDTO.id = athlete.id;
+            athleteDTO.firstName = athlete.firstName;
+            athleteDTO.lastName = athlete.lastName;
 
-        for (let ranking of rankings) {
-            let rankingObj = {
-                rank: ranking.rank,
-                type: ranking.SubEvent.type,
-                eventId: ranking.SubEvent.Event.id
+            for (let result of athlete.OverallResults) {
+                const resultDTO = new ComparisonsAthleteDTO.Athlete.Result();
+                resultDTO.rank = result.rank;
+                resultDTO.eventId = result.SubEvent.Event.id;
+                resultDTO.eventTitle = result.SubEvent.Event.title;
+                resultDTO.date = result.SubEvent.Event.dateStart;
+                resultDTO.type = result.SubEvent.type;
+                athleteDTO.results.push(resultDTO);
             }
 
-            athleteData[ranking.AthleteId].rankings.push(rankingObj);
+            output.athletes.push(athleteDTO);
         }
 
-        return res.json({ events: eventsMap, athletes: athleteData });
+        return res.json(output);
     } catch (err) {
         return next(err);
     }
