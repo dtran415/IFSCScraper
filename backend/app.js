@@ -28,8 +28,8 @@ app.use("/compare", comparisonRoutes);
 /** 404 handler */
 
 app.get("/parse", async (req, res, next) => {
-    await parseAll();
-    return res.send("done");
+    const output = await parseAll();
+    return res.json(output);
 });
 
 app.get("/medals", async (req, res, next) => {

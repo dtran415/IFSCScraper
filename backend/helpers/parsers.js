@@ -72,17 +72,13 @@ async function parseCalendar() {
 }
 
 // return list of event ids to parse
-async function parseEvents(leagueId) {
+async function parseEvents(leagueId, output) {
     if (!leagueId)
         throw Error("No league ID");
 
     const eventsToParse = [];
     // event is the main event, ie. IFSC - Climbing World Cup (B) - Hachioji (JPN) 2023
     const scrapedEventSet = await getScrapedSet("event");
-    // subevent is individual groups, ie. BOULDER Men
-    const scrapedSubEventSet = await getScrapedSet("subevent");
-    // we'll use eventid_dcatid as identifier for overall result ifsc id
-    const scrapedOverallSet = await getScrapedSet("overall_result");
 
     const url = `https://components.ifsc-climbing.org/results-api.php?api=season_leagues_calendar&league=${leagueId}`;
     let resp = await axios.get(url);
@@ -90,8 +86,10 @@ async function parseEvents(leagueId) {
     for (let event of data.events) {
         const eventId = event.event_id;
         // skip if already scraped
-        if (scrapedEventSet.has(eventId.toString()))
+        if (scrapedEventSet.has(eventId.toString())) {
+            output.push({ type: "event", id: eventId, status: "previously scraped" });
             continue;
+        }
 
         const eventName = event.event;
         const dateStart = new Date(event.starts_at);
@@ -105,34 +103,11 @@ async function parseEvents(leagueId) {
             dateEnd
         });
 
-        const eventData = {
-            eventId,
-            overall_results: []
-        };
-
-        // check all subevents
-        for (let subevent of event.d_cats) {
-            const dCatId = subevent.id;
-            const subeventType = subevent.name;
-
-            // only doing lead and boulder
-            if (!dcatMap[dCatId]) {
-                continue;
-            }
-
-            await SubEvent.upsert({
-                EventId: eventId,
-                type: subeventType,
-                dCatId: dCatId
-            });
-
-            if (!scrapedOverallSet.has(`${eventId}_${dCatId}`)) {
-                eventData.overall_results.push(dCatId);
-            }
-        }
+        const eventData = await getRoundsToScrape(eventId, event.d_cats);
 
         // if no subevents, consider this event fully scraped and put it in the tracking table
         if (eventData.overall_results.length === 0) {
+            output.push({ type: "event", id: eventId, status: "No subevents to scrape" });
             await ScrapeTracker.create({
                 type: "event",
                 ifscId: eventId
@@ -146,7 +121,8 @@ async function parseEvents(leagueId) {
 }
 
 // dCatId is a number system that IFSC uses to identify the event type, ie. 3 = BOULDER men, 7 = BOULDER women
-async function parseOverall(eventId, dCatId) {
+// return true if parsed, the return value will be checked to see if it needs to be rechecked for completed scrape
+async function parseOverall(eventId, dCatId, output) {
     if (!eventId || !dCatId) {
         throw new Error("Missing eventId, dCatId");
     }
@@ -169,8 +145,10 @@ async function parseOverall(eventId, dCatId) {
     });
 
     // don't parse if already exists
-    if (record)
-        return;
+    if (record) {
+        output.push({ type: "overall", title: data.event, id: eventId, dCatId, status: "Skipped. Already scraped" })
+        return true; // true because already scraped
+    }
 
     const url = `https://components.ifsc-climbing.org/results-api.php?api=overall_r_result_complete&event_id=${eventId}&category_id=${dCatId}`;
 
@@ -178,8 +156,10 @@ async function parseOverall(eventId, dCatId) {
     const data = resp.data;
 
     // skip if no data
-    if (!data.category_rounds)
-        return;
+    if (!data.category_rounds) {
+        output.push({ type: "overall", title: data.event, id: eventId, dCatId, status: "Skipped. No rounds" })
+        return false; // false so we can check back again next time
+    }
 
     // make sure all rounds are finished before parsing
     let finished = true;
@@ -191,7 +171,8 @@ async function parseOverall(eventId, dCatId) {
     }
 
     if (!finished) {
-        return;
+        output.push({ type: "overall", title: data.event, id: eventId, dCatId, status: "Skipped. Event not finished." })
+        return false;
     }
 
     const subevent = await SubEvent.findOne({
@@ -201,10 +182,11 @@ async function parseOverall(eventId, dCatId) {
         }
     });
 
+    // if error creating subevent cancel
     if (!subevent)
-        return;
+        return false;
 
-    console.log("Parse Overall", eventId, dCatId);
+    console.log("Parse Overall", eventId, dCatId, data.event, data.dcat);
 
     const gender = dcatMap[dCatId][1];
 
@@ -234,6 +216,9 @@ async function parseOverall(eventId, dCatId) {
         ifscId: eventId,
         ifscId2: dCatId
     });
+
+    output.push({ type: "overall", title: data.event, subtype: subevent.type, id: eventId, dCatId, status: "Completed" })
+    return true;
 }
 
 async function createAthlete({ athleteId, firstName, lastName, country, gender }) {
@@ -254,22 +239,76 @@ async function createAthlete({ athleteId, firstName, lastName, country, gender }
 }
 
 async function parseAll() {
-    const seasonsToParse = (await parseCalendar()).slice(0,2);
+    const output = [];
+    const seasonsToParse = await parseCalendar();
 
     console.log("seasons", seasonsToParse);
-    
+
     for (let leagueId of seasonsToParse) {
-        const eventsToParse = await parseEvents(leagueId);
+        const eventsToParse = await parseEvents(leagueId, output);
         console.log("events", JSON.stringify(eventsToParse, null, 2));
         for (let event of eventsToParse) {
             const eventId = event.eventId;
 
+            // boolean to decide if we should check to see if all sub rounds completed scraping
+            // default to true, if a round was skipped we should not check
+            let check = true;
             // parse each overall
             for (let dCatId of event.overall_results) {
-                await parseOverall(eventId, dCatId)
+                const parsed = await parseOverall(eventId, dCatId, output)
+                if (!parsed)
+                    check = false;
+            }
+
+            if (check) {
+                // check after to see if the event has any rounds left to scrape
+                const eventData = await getRoundsToScrape(eventId, event.overall_results);
+
+                // if no subevents, consider this event fully scraped and put it in the tracking table
+                if (eventData.overall_results.length === 0) {
+                    output.push({ type: "event", id: eventId, status: "Completed" });
+                    await ScrapeTracker.create({
+                        type: "event",
+                        ifscId: eventId
+                    });
+                }
             }
         }
     }
+    return output;
+}
+
+async function getRoundsToScrape(eventId, dCats) {
+    // we'll use eventid_dcatid as identifier for overall result ifsc id
+    const scrapedOverallSet = await getScrapedSet("overall_result");
+
+    const eventData = {
+        eventId,
+        overall_results: []
+    };
+
+    // check all subevents
+    for (let subevent of dCats) {
+        const dCatId = subevent.id;
+        const subeventType = subevent.name;
+
+        // only doing lead and boulder
+        if (!dcatMap[dCatId]) {
+            continue;
+        }
+
+        await SubEvent.upsert({
+            EventId: eventId,
+            type: subeventType,
+            dCatId: dCatId
+        });
+
+        if (!scrapedOverallSet.has(`${eventId}_${dCatId}`)) {
+            eventData.overall_results.push(dCatId);
+        }
+    }
+
+    return eventData;
 }
 
 module.exports = {
