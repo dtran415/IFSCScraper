@@ -35,6 +35,7 @@ class AthleteDTO {
             const rankingObj = {
                 rank: ranking.rank,
                 eventId: ranking.SubEvent.Event.id,
+                dCatId: ranking.SubEvent.dCatId,
                 eventTitle: ranking.SubEvent.Event.title,
                 date: ranking.SubEvent.Event.dateStart,
                 type: ranking.SubEvent.type,

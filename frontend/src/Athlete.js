@@ -26,7 +26,17 @@ function Athlete() {
 
     const columns = [
         { name: "Rank", options: { filter: false } },
-        { name: "Event", options: { filter: true } },
+        {
+            name: "Event", options: {
+                filter: true,
+                customBodyRender: (value, tableMeta, updateValue) => {
+                    const resultData = athlete.results[tableMeta.rowIndex];
+                    return (
+                        <a href={`/events/${resultData.eventId}/${resultData.dCatId}`}>{value}</a>
+                    )
+                }
+            }
+        },
         { name: "Date", options: { filter: true } },
         { name: "Type", options: { filter: true } },
         { name: "Qualifier", options: { filter: true } },

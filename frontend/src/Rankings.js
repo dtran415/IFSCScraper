@@ -24,12 +24,23 @@ function Rankings() {
     }
 
     const columns = [
-        {name: "Rank", options: { filter: false}}, 
-        {name: "Name", options: { filter: false}}, 
-        {name: "Country", options: {filter: true}}, 
-        {name: "Qualifier", options: { filter: false}},  
-        {name: "Semifinal", options: { filter: false}}, 
-        {name: "final", options: { filter: false}} ];
+        { name: "Rank", options: { filter: false } },
+        {
+            name: "Name", options: {
+                filter: false,
+                customBodyRender: (value, tableMeta, updateValue) => {
+                    const rowIndex = tableMeta.rowIndex;
+                    const athleteId = rankings.overallResults[rowIndex].AthleteId;
+                    return (
+                        <a href={`/athletes/${athleteId}`}>{value}</a>
+                    )
+                }
+            }
+        },
+        { name: "Country", options: { filter: true } },
+        { name: "Qualifier", options: { filter: false } },
+        { name: "Semifinal", options: { filter: false } },
+        { name: "final", options: { filter: false } }];
 
     const data = [];
     for (let rank of rankings.overallResults) {

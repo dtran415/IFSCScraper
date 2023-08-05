@@ -30,7 +30,7 @@ function EventsPage() {
             date: date.toLocaleDateString("en-US", options),
             subevents: e.SubEvents
         }
-        return <EventItem event={event} />
+        return <EventItem key={e.id} event={event} />
     });
 
     return (
