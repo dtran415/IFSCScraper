@@ -12,7 +12,7 @@ function EventItem({ event }) {
                     <div className="fs-5">{event.date}</div>
                 </CardSubtitle>
                 {event.subevents.map(subevent => (
-                    <Button color="primary" className="m-1" href={`/events/${event.id}/${subevent.dCatId}`}>{subevent.type}</Button>
+                    <Button key={`${event.id}-${subevent.dCatId}`} color="primary" className="m-1" href={`/events/${event.id}/${subevent.dCatId}`}>{subevent.type}</Button>
                 ))}
             </CardBody>
         </Card>

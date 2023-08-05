@@ -7,7 +7,7 @@ class CountriesDTO{
         this.code = country["Athlete.Country.code"];
         this.numAthletes = +country.numAthletes;
         this.medals = {
-            bronze: +country.gold,
+            bronze: +country.bronze,
             silver: +country.gold,
             gold: +country.silver,
             total: +country.total

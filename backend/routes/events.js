@@ -5,6 +5,7 @@ const SubEvent = require("../models/subevent");
 const OverallResult = require("../models/overall_result");
 const Athlete = require("../models/athlete");
 const ScrapeTracker = require("../models/scrape_tracker");
+const { sequelize } = require("../db");
 
 // list all events in date descending order
 router.get("/", async function(req, res, next) {
@@ -18,7 +19,9 @@ router.get("/", async function(req, res, next) {
                 attributes: [],
                 model: ScrapeTracker,
                 where: {
-                    type: "event"
+                    type: "overall_result",
+                    ifscId2: sequelize.literal("\"ScrapeTracker\".\"ifscId2\" = \"SubEvents\".\"dCatId\"") // couldn't figure out how to reference another column so using this weird workaround
+                    // joining with ifscId2 so we only show events that completed
                 }
             }]
         });
@@ -66,7 +69,7 @@ router.get("/:eventId/:catId", async function(req, res, next) {
             order: [['rank', 'ASC']]
         });
 
-        return res.json({title: event.title, overallResults});
+        return res.json({title: event.title, subtitle:overallResults[0].SubEvent.type ,overallResults});
     } catch (err) {
         return next(err);
     }

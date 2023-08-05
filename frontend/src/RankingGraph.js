@@ -30,7 +30,7 @@ function RankingGraph({ athletes }) {
             const eventId = result.eventId;
             const eventTitle = result.eventTitle;
             const date = result.date;
-    
+
             // check for event type object
             let eventObj = eventMap.get(type);
             if (!eventObj) {
@@ -40,18 +40,18 @@ function RankingGraph({ athletes }) {
                 }
                 eventMap.set(type, eventObj);
             }
-    
+
             // add event, overwrite if already there
-            eventObj.events.set(eventId, {title: eventTitle, date});
+            eventObj.events.set(eventId, { title: eventTitle, date });
 
             let results = eventObj.athleteResults.get(id);
             if (!results) {
-                eventObj.athleteResults.set(id, {name, results: []});
+                eventObj.athleteResults.set(id, { name, results: [] });
                 results = eventObj.athleteResults.get(id);
             }
 
             // add result
-           results.results.push({ rank, eventId})
+            results.results.push({ rank, eventId })
         }
     }
 
@@ -62,7 +62,7 @@ function RankingGraph({ athletes }) {
             function (e1, e2) {
                 const d1 = new Date(e1.date);
                 const d2 = new Date(e2.date);
-        
+
                 if (d1 < d2)
                     return -1;
                 else if (d1 > d2)
@@ -76,7 +76,7 @@ function RankingGraph({ athletes }) {
         for (let [i, event] of eventsData.entries()) {
             event.index = i;
         }
-        
+
         const labels = eventsData.map(event => new Date(event.date).toISOString().split('T')[0]);
         const athleteDatasets = new Map(); // map of arrays for the datapoints for the graph
 
@@ -84,7 +84,7 @@ function RankingGraph({ athletes }) {
         for (let [id, athleteResults] of eventObj.athleteResults.entries()) {
             let athleteData = athleteDatasets.get(id);
             if (!athleteData) {
-                athleteDatasets.set(id, {name: athleteResults.name, results:[]});
+                athleteDatasets.set(id, { name: athleteResults.name, results: [] });
                 athleteData = athleteDatasets.get(id);
             }
 
@@ -128,39 +128,39 @@ function RankingGraph({ athletes }) {
 */
 function createRankChart(data, title, secondaryLabels) {
     return <Chart
-                key={title}
-                className='mt-5'
-                type='line'
-                datasetIdKey='id'
-                data={data}
-                options={{
-                    scales: {
-                        y: {
-                            reverse: true,
-                            title: {
-                                display: true,
-                                text: 'Rank'
-                            }
-                        }
-                    },
-                    plugins: {
-                        autocolors: {
-                            mode: 'dataset'
-                        },
-                        tooltip: {
-                            callbacks: {
-                                title: function (context) {
-                                    return secondaryLabels[context[0].dataIndex]
-                                }
-                            }
-                        },
-                        title: {
-                            display: true,
-                            text: title
+        key={title}
+        className='mt-5'
+        type='line'
+        datasetIdKey='id'
+        data={data}
+        options={{
+            scales: {
+                y: {
+                    reverse: true,
+                    title: {
+                        display: true,
+                        text: 'Rank'
+                    }
+                }
+            },
+            plugins: {
+                autocolors: {
+                    mode: 'dataset'
+                },
+                tooltip: {
+                    callbacks: {
+                        title: function (context) {
+                            return `${context[0].label}\n${secondaryLabels[context[0].dataIndex]}`
                         }
                     }
-                }}
-            />
+                },
+                title: {
+                    display: true,
+                    text: title
+                }
+            }
+        }}
+    />
 }
 
 export default RankingGraph;
