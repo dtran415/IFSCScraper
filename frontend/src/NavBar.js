@@ -9,6 +9,7 @@ function NavBar() {
       <Navbar expand="md" className="fixed-top">
         <Nav className="ml-auto" navbar>
           <NavItem>
+            <NavLink className="nav-item" to="/">Home</NavLink>
             <NavLink className="nav-item" to="/events">Events</NavLink>
             <NavLink className="nav-item" to="/athletes">Athletes</NavLink>
             <NavLink className="nav-item" to="/countries">Countries</NavLink>

@@ -22,12 +22,12 @@ function Countries() {
     }
 
     const columns = [
-        {name: "Country", options: { filter: true}}, 
-        {name: "Athletes", options: { filter: true}}, 
-        {name: "Gold", options: { filter: true}},  
-        {name: "Silver", options: { filter: true}}, 
-        {name: "Bronze", options: { filter: true}}, 
-        {name: "Total", options: { filter: true}} ];
+        { name: "Country", options: { filter: true } },
+        { name: "Athletes", options: { filter: true } },
+        { name: "Gold", options: { filter: true } },
+        { name: "Silver", options: { filter: true } },
+        { name: "Bronze", options: { filter: true } },
+        { name: "Total", options: { filter: true } }];
 
     const data = [];
     for (let country of countries) {
@@ -47,13 +47,14 @@ function Countries() {
         }
     };
 
-    return <MUIDataTable
-        className="m-5"
-        title={"Countries"}
-        data={data}
-        columns={columns}
-        options={options}
-    />
+    return <div className="m-5">
+        <h1>Countries</h1>
+        <MUIDataTable
+            data={data}
+            columns={columns}
+            options={options}
+        />
+    </div>
 }
 
 export default Countries;

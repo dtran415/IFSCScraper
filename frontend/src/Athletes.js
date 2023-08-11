@@ -77,13 +77,15 @@ function Athletes() {
         customToolbarSelect: CustomToolbar
     };
 
-    return <MUIDataTable
-        className="m-5"
-        title={"Athletes"}
-        data={data}
-        columns={columns}
-        options={options}
-    />
+    return <div className="m-5">
+        <h1>Athletes</h1>
+        <p>This table contains a list of all athletes and is sortable. You can also select athletes to compare their rankings over time or click on an athlete name to get information for that specific athlete.</p>
+        <MUIDataTable
+            data={data}
+            columns={columns}
+            options={options}
+        />
+    </div>
 }
 
 export default Athletes;

@@ -27,6 +27,10 @@ app.use("/compare", comparisonRoutes);
 
 /** 404 handler */
 
+app.get("/", (req, res, next) => {
+    return res.json({msg: "Go to /parse to scrape for data"})
+});
+
 app.get("/parse", async (req, res, next) => {
     const output = await parseAll();
     return res.json(output);

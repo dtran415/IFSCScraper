@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
 import EventsPage from "./EventsPage";
 import Rankings from "./Rankings";
 import NavBar from "./NavBar";
@@ -13,6 +14,7 @@ function AppRoutes() {
         <BrowserRouter>
             <NavBar />
             <Routes>
+                <Route path="/" element={<HomePage />} />
                 <Route path="/events" element={<EventsPage />} />
                 <Route path="/events/:eventId/:catId" element={<Rankings />} />
                 <Route path="/athletes" element={<Athletes />} />

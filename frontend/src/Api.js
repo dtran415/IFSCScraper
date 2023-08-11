@@ -35,3 +35,4 @@ class IFSCScraperAPI {
 }
 
 export default IFSCScraperAPI;
+export {BASE_API_URL as API_URL}

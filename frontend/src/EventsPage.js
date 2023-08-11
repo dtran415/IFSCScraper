@@ -60,6 +60,8 @@ function EventsPage() {
 
     return (
         <div className="container mt-5">
+            <h1>Events</h1>
+            <p>Events are listed by year and ordered by most recent first. Click on a subevent to see overall results for that event.</p>
             {list}
         </div>
     )
