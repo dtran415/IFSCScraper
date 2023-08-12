@@ -247,6 +247,17 @@ async function parseAll() {
     for (let leagueId of seasonsToParse) {
         const eventsToParse = await parseEvents(leagueId, output);
         console.log("events", JSON.stringify(eventsToParse, null, 2));
+
+        // if no events to parse this season is completed
+        if (eventsToParse.length === 0) {
+            await ScrapeTracker.create({
+                type: "calendar",
+                ifscId: leagueId
+            });
+
+            continue;
+        }
+
         for (let event of eventsToParse) {
             const eventId = event.eventId;
 

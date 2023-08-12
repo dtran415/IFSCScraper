@@ -24,7 +24,7 @@ Event.init({
     modelName: 'Event'
 })
 
-Event.belongsTo(ScrapeTracker, {foreignKey: 'id', targetKey: 'ifscId'});
-ScrapeTracker.belongsTo(Event, {foreignKey: 'ifscId'});
+Event.belongsTo(ScrapeTracker, {foreignKey: 'id', targetKey: 'ifscId', constraints: false});
+ScrapeTracker.belongsTo(Event, {foreignKey: 'ifscId', constraints: false});
 
 module.exports = Event;
