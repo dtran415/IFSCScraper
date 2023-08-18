@@ -17,4 +17,10 @@ async function sync(options) {
   console.log("All models were synchronized successfully.");
 }
 
-module.exports = {sequelize, connect, sync};
+// sync for tests happen later so we can reset tables with force sync
+if (process.env.NODE_ENV !== "test") {
+  connect();
+  sync({ alter: true });
+}
+
+module.exports = { sequelize, connect, sync };

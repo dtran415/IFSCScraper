@@ -67,7 +67,7 @@ router.get("/:athleteId", async function (req, res, next) {
     try {
         const athleteId = +req.params.athleteId;
         if (!Number.isInteger(athleteId))
-            throw new ExpressError("Invalid Athlete");
+            throw new ExpressError("Invalid Athlete ID", 400);
 
         const athlete = await Athlete.findOne({
             where: {
@@ -76,7 +76,7 @@ router.get("/:athleteId", async function (req, res, next) {
         });
 
         if (!athlete) {
-            throw new ExpressError("Invalid Athlete");
+            throw new ExpressError("Athlete not found", 404);
         }
 
         // get all event rankings for athlete

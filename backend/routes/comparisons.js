@@ -69,9 +69,14 @@ router.get("/countries", async function (req, res, next) {
 
 router.get('/athletes', async (req, res, next) => {
     try {
-        const ids = req.query.ids.split(",").map(id => +id);
+        // checking param separately because splitting on a blank and converting blank to a number returns 0
+        if (!req.query.ids)
+            throw new ExpressError("Please supply athlete ids to compare", 400);
+
+        const ids = req.query.ids.split(",").map(id => +id).filter(id => Number.isInteger(id));
+        console.log(ids, ids.length);
         if (ids.length === 0)
-            throw ExpressError("Please supply athlete ids to compare");
+            throw new ExpressError("Please supply athlete ids to compare", 400);
 
         // get athletes
         const athletes = await Athlete.findAll({

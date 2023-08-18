@@ -32,7 +32,7 @@ describe("parseCalendar", function () {
 describe("parseEvent", function () {
     it('should return list of subevents of parse', async () => {
         // 418 is 2023 season
-        const eventsToparse = await parseEvents(418);
+        const eventsToparse = await parseEvents(418, []);
         expect(eventsToparse.length).toBeTruthy();
     });
 });
@@ -54,7 +54,7 @@ describe("parseOverall", function () {
             EventId: eventId
         });
 
-        await parseOverall(eventId, dCatId);
+        await parseOverall(eventId, dCatId, []);
 
         const records = await OverallResult.findAll({
             include: {

@@ -6,6 +6,7 @@ const OverallResult = require("../models/overall_result");
 const Athlete = require("../models/athlete");
 const ScrapeTracker = require("../models/scrape_tracker");
 const { sequelize } = require("../db");
+const ExpressError = require("../expressError");
 
 // list all events in date descending order
 router.get("/", async function(req, res, next) {
@@ -57,6 +58,10 @@ router.get("/:eventId/:catId", async function(req, res, next) {
             }
         });
 
+        if (!event) {
+            throw new ExpressError("Event not found", 404);
+        }
+
         const overallResults = await OverallResult.findAll({
             include: [{
                 model: SubEvent,
@@ -69,8 +74,13 @@ router.get("/:eventId/:catId", async function(req, res, next) {
             order: [['rank', 'ASC']]
         });
 
+        if (overallResults.length === 0) {
+            throw new ExpressError("Results not found", 404);
+        }
+
         return res.json({title: event.title, subtitle:overallResults[0].SubEvent.type ,overallResults});
     } catch (err) {
+        console.log(err);
         return next(err);
     }
 });
