@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MUIDataTable from "mui-datatables";
 import IFSCScraperAPI from "./Api";
+import country_codes from "./country_codes";
 
 function Countries() {
     const [isLoading, setIsLoading] = useState(true);
@@ -31,7 +32,7 @@ function Countries() {
 
     const data = [];
     for (let country of countries) {
-        data.push([country.code, country.numAthletes, country.medals.gold, country.medals.silver, country.medals.bronze, country.medals.total]);
+        data.push([country_codes.get(country.code) || country.code, country.numAthletes, country.medals.gold, country.medals.silver, country.medals.bronze, country.medals.total]);
     };
 
     const options = {
