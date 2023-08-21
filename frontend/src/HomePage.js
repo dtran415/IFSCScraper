@@ -1,15 +1,15 @@
 import React from "react";
 import { API_URL } from "./Api";
-import { Button, Card, CardBody, CardImg, CardText, CardTitle, Col, Row } from "reactstrap";
+import { Card, CardBody, CardImg, CardText, CardTitle, Col, Row } from "reactstrap";
 
 function HomePage() {
     return (
         <div className="container my-5">
-            <img src="logo-ifsc.png" className="mx-auto d-block" />
+            <img src="logo-ifsc.png" alt="ifsc_logo" className="mx-auto d-block" />
             <h1 className="text-center">IFSC Data Visualizer</h1>
             <div className="m-5 fs-4">
                 <p>This web app takes data scraped from the IFSC website and creates tables and charts that help visualize the data. Currently, only lead and boulder results are scraped. The data scraped is manually triggered so it may not be up to date.</p>
-                <p>Use <a href={`${API_URL}/parse`} target="_blank">{API_URL}/parse</a> to trigger the scraper.</p>
+                <p>Use <a href={`${API_URL}/parse`} target="_blank" rel="noreferrer">{API_URL}/parse</a> to trigger the scraper.</p>
             </div>
             <Row>
                 <Col sm="4">

@@ -2,12 +2,15 @@ import React, { useEffect, useState } from "react";
 import MUIDataTable from "mui-datatables";
 import IFSCScraperAPI from "./Api";
 import { Button } from "reactstrap";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 function Athletes() {
     const [isLoading, setIsLoading] = useState(true);
     const [athletes, setAthletes] = useState();
     const navigate = useNavigate();
+    const [params] = useSearchParams();
+    const country = params.get("country");
+    const countryFilter = country?[country]:null;
 
     useEffect(() => {
         async function getAthletes() {
@@ -38,7 +41,8 @@ function Athletes() {
             }
         },
         { name: "Gender", options: { filter: true } },
-        { name: "Country", options: { filter: true } },
+        { name: "Country", options: { filter: true,
+            filterList: countryFilter } },
         { name: "Gold", options: { filter: true } },
         { name: "Silver", options: { filter: true } },
         { name: "Bronze", options: { filter: true } },

@@ -23,7 +23,15 @@ function Countries() {
     }
 
     const columns = [
-        { name: "Country", options: { filter: true } },
+        { name: "Country", options: { 
+            filter: true, customBodyRender: (value, tableMeta, updateValue) => {
+            const rowIndex = tableMeta.rowIndex;
+            const countryIndex = tableMeta.currentTableData[rowIndex].index;
+            const country = countries[countryIndex].code;
+            return (
+                <a href={`/athletes?country=${country}`}>{value}</a>
+            )
+        } } },
         { name: "Athletes", options: { filter: true } },
         { name: "Gold", options: { filter: true } },
         { name: "Silver", options: { filter: true } },

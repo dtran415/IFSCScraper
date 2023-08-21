@@ -12,6 +12,7 @@
     "bootstrap": "^5.3.0",
     "chart.js": "^4.3.2",
     "chartjs-plugin-autocolors": "^0.2.2",
+    "env-cmd": "^10.1.0",
     "mui-datatables": "^4.3.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
@@ -23,6 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:dev": "env-cmd -f dev.env npm start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
