@@ -57,6 +57,7 @@ Event Details: [https://ifsc-scraper-service.onrender.com/events/:eventId/:catId
 For the backend:  
 Run `npm install` to install dependencies. Then run `node server.js` to start the server.  
 Create a database called `ifsc_scraper` and `ifsc_scraper-test`.  The first is the production database and the second is for running locally and for tests.  
+Create an environment variable DATABASE_URL that points to your database.  
 In the browser, go to `localhost:5000/parse` to start the scraper. This will take a while because it is doing many fetches but each event is only scraped once so it will be faster in subsequent runs.  
 
 Run `jest` to run tests.
