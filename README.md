@@ -16,20 +16,20 @@ The athletes page shows a list of every athlete that was found during the scrapi
 The countries page shows a list of every country that was found during the scraping process and includes number of athletes and medal counts.
 
 ## App Link
-Currently running on free tier of Render so the service shuts down from inactivity. Run backend first then frontend so backend is available when frontend boots back up.
+Currently running on Eco Dynos on Heroku so the service shuts down from inactivity. Run backend first then frontend so backend is available when frontend boots back up.
 
-**Backend:** https://ifsc-scraper-service.onrender.com/
+**Backend:** https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/
 
 **Backend Services:** \
-Scrape: https://ifsc-scraper-service.onrender.com/parse \
-List of athletes: https://ifsc-scraper-service.onrender.com/athletes \
-Athlete Details: [https://ifsc-scraper-service.onrender.com/athletes/:athleteId](https://ifsc-scraper-service.onrender.com/athletes/1147) \
-Athlete Comparison: [https://ifsc-scraper-service.onrender.com/compare/athletes?ids=(comma separated athlete ids)](https://ifsc-scraper.onrender.com/compare/athletes?ids=1147,2253) \
-List of Countries: https://ifsc-scraper-service.onrender.com/countries \
-List of Events: https://ifsc-scraper-service.onrender.com/events \
-Event Details: [https://ifsc-scraper-service.onrender.com/events/:eventId/:catId](https://ifsc-scraper.onrender.com/events/1301/3)
+Scrape: https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/parse \
+List of athletes: https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/athletes \
+Athlete Details: [https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/athletes/:athleteId](https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/athletes/1147) \
+Athlete Comparison: [https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/compare/athletes?ids=(comma separated athlete ids)](https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/compare/athletes?ids=1147,2253) \
+List of Countries: https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/countries \
+List of Events: https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/events \
+Event Details: [https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/events/:eventId/:catId](https://ifsc-scraper-service-2c6bbceb822f.herokuapp.com/events/1301/3)
 
-**Frontend:** https://ifsc-scraper.onrender.com/
+**Frontend:** https://ifsc-scraper-bced953dd6a2.herokuapp.com/
 
 ## Technologies Used
 | Technology | Use |
@@ -63,4 +63,5 @@ In the browser, go to `localhost:5000/parse` to start the scraper. This will tak
 Run `jest` to run tests.
 
 For the frontend:  
+Create an environment variable REACT_APP_API_URL that points to the backend service.  
 Run `npm install` to install dependencies, then run `npm start` to start the server.
