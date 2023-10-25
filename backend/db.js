@@ -2,6 +2,7 @@ const { Sequelize } = require('sequelize');
 const { DB_URI } = require("./config");
 
 let sequelize = new Sequelize(DB_URI, {logging: false});
+console.log("DB_URI: " + DB_URI);
 
 async function connect() {
   try {

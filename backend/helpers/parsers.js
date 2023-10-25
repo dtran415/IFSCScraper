@@ -200,7 +200,7 @@ async function parseOverall(eventId, dCatId, output) {
         }
 
         const athleteRecord = await createAthlete(athleteData);
-        await OverallResult.create({
+        await OverallResult.upsert({
             rank: athlete.rank,
             AthleteId: athleteRecord.id,
             SubEventId: subevent.id,
